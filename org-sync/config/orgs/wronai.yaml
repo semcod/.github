@@ -1,0 +1,6 @@
+org: wronai
+tagline: "Ekosystem narzędzi AI-first dla programistów — automatyzacja, LLM, DevOps i przetwarzanie języka naturalnego."
+homepage_base: https://wronai.github.io
+default_topics:
+  - wronai
+  - python

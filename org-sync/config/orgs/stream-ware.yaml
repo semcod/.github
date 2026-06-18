@@ -1,0 +1,5 @@
+org: stream-ware
+tagline: "Streaming, edge and media automation projects."
+homepage_base: https://stream-ware.github.io
+default_topics:
+  - stream-ware

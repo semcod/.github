@@ -1,0 +1,6 @@
+org: oqlos
+tagline: "OQL/DOQL quality and compliance automation for web and lab systems."
+homepage_base: https://oqlos.github.io
+default_topics:
+  - oqlos
+  - python

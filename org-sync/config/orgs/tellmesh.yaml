@@ -1,0 +1,6 @@
+org: tellmesh
+tagline: "URI-driven mesh, KVM and remote access tooling."
+homepage_base: https://tellmesh.github.io
+default_topics:
+  - tellmesh
+  - python

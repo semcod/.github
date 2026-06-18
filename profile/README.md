@@ -28,7 +28,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 | Projekt | Opis | Język |
 |---------|------|-------|
-| [mcp](https://semcod.github.io/mcp/) | System autonomicznej refaktoryzacji kodu oparty na Model Context Protocol (MCP), integrujący: | Python |
+| [mcp](https://semcod.github.io/mcp/) | Mcp | Python |
 
 ### Developer Tools
 
@@ -41,7 +41,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | Projekt | Opis | Język |
 |---------|------|-------|
 | [curllm](https://semcod.github.io/curllm/) | curllm - Intelligent browser automation with local LLMs (Qwen, Llama, Mistral) for data extraction and form automation using a dynamic… | Python |
-| [prellm](https://semcod.github.io/prellm/) | One function for small LLM preprocessing before large LLM execution. | Python |
+| [prellm](https://semcod.github.io/prellm/) | Prellm | Python |
 
 ### NLP & Voice
 
@@ -54,22 +54,22 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | Projekt | Opis | Język |
 |---------|------|-------|
 | [algitex](https://semcod.github.io/algitex/) | Progressive algorithmization toolchain — from LLM to deterministic code, from proxy to tickets | Python |
-| [ats-benchmark](https://semcod.github.io/ats-benchmark/) | -----------------------|-----------------------------------------| | Python |
+| [ats-benchmark](https://semcod.github.io/ats-benchmark/) | Ats Benchmark | Python |
 | [clickmd](https://semcod.github.io/clickmd/) | Markdown rendering for CLI applications with syntax highlighting | HTML |
 | [code2docs](https://semcod.github.io/code2docs/) | Auto-generate and sync project documentation from source code analysis | Python |
 | [code2schema](https://semcod.github.io/code2schema/) | Semantic compiler: Code → AST → CQRS Model → Workflow DAG → Proto/Schema | HTML |
 | [codot](https://semcod.github.io/codot/) | CQRS-URL Platform - Commands and Queries as URL-addressable resources | HTML |
 | [costs](https://semcod.github.io/costs/) | Zero-config AI cost calculator per commit/model with liteLLM | HTML |
-| [dbos](https://semcod.github.io/dbos/) | ------ | ----------------------- | -----------------------------------------------| | HTML |
+| [dbos](https://semcod.github.io/dbos/) | Dbos | HTML |
 | [deta](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [docval](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
-| [domd](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
+| [domd](https://semcod.github.io/domd/) | !License: Apache-2.0 !Python Version !Code Style: Black !Tests !Docker Support !Documentation | Python |
 | [env2llm](https://semcod.github.io/env2llm/) | Generate environment maps (services, artifacts, env vars) for LLM decision-making | HTML |
 | [fixop](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
 | [gillm](https://semcod.github.io/gillm/) | GUI Control Plugin with NLP & Intent Contracts | HTML |
 | [giton](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
-| [godot](https://semcod.github.io/godot/) | > Repository initialized with an initial commit. No file-level changes or TODOs are present in this snapshot. | HTML |
+| [godot](https://semcod.github.io/godot/) | Godot | HTML |
 | [heal](https://semcod.github.io/heal/) | A Python package for healing and wellness | Python |
 | [hillm](https://semcod.github.io/hillm/) | Hardware Interface LLM — control displays, cameras, audio, USB, serial, Modbus, and more. | Python |
 | [imgl](https://semcod.github.io/imgl/) | Image to Layout — screenshot OCR and semantic UI reconstruction | Python |
@@ -85,12 +85,12 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [nlp2uri](https://semcod.github.io/nlp2uri/) | Natural language to URI resolution and cross-platform local URI execution | Python |
 | [nxdo](https://semcod.github.io/nxdo/) | Generate the next 10 project tasks from project state, git history and an LLM prompt. | HTML |
 | [op3](https://semcod.github.io/op3/) | Layered operations tree — observe, diff, orchestrate infrastructure as data | Python |
-| [pactfix](https://semcod.github.io/pactfix/) | - ⚡ Real-time analysis - Błędy widoczne podczas pisania | Python |
+| [pactfix](https://semcod.github.io/pactfix/) | Real-time Bash script analyzer and auto-fixer with ShellCheck integration. | Python |
 | [pfix](https://semcod.github.io/pfix/) | Self-healing Python — catches runtime errors, fixes code & dependencies via LLM + MCP | Python |
 | [prefact](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
 | [protos](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
 | [proxym](https://semcod.github.io/proxym/) | Intelligent AI proxy with multi-provider routing, semantic caching, and delta context buffers | Python |
-| [pyqual-demo](https://semcod.github.io/pyqual-demo/) | > Initial commit: project scaffold created with baseline repository structure. | HTML |
+| [pyqual-demo](https://semcod.github.io/pyqual-demo/) | Pyqual Demo | HTML |
 | [qualbench](https://semcod.github.io/qualbench/) | CI for AI-generated code — measures production readiness, not just correctness | Python |
 | [redsl](https://semcod.github.io/redsl/) | ReDSL — Refactor + DSL + Self-Learning. LLM-powered autonomous code refactoring. | Python |
 | [redup](https://semcod.github.io/redup/) | Code duplication analyzer and refactoring planner for LLMs | HTML |
@@ -100,21 +100,21 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [repatch](https://semcod.github.io/repatch/) | Scope-based HTML/CSS/DOM patch utilities and LLM patch helpers | HTML |
 | [resplit](https://semcod.github.io/resplit/) | Historical deployment analysis — walk git history, deploy per day, test all endpoints, capture screenshots, restore working fragments | Python |
 | [semcod](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
-| [skillm](https://semcod.github.io/skillm/) | Instrukcja integracji MCP: examples/open-webui/README.md. | Python |
+| [skillm](https://semcod.github.io/skillm/) | Skillm | Python |
 | [sumd](https://semcod.github.io/sumd/) | SUMD - Structured Unified Markdown Descriptor for AI-aware project documentation | Python |
 | [swop](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
 | [tagi](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
 | [taskill](https://semcod.github.io/taskill/) | Daily project hygiene: keep README / CHANGELOG / TODO in sync with reality. LLM-first, algorithmic fallback. | Python |
-| [taskinity](https://semcod.github.io/taskinity/) | > Initial commit created the repository. No files changed since the last run and TODO.md is empty. | HTML |
+| [taskinity](https://semcod.github.io/taskinity/) | Taskinity | HTML |
 | [testless](https://semcod.github.io/testless/) | Analyze test value, coverage, duplication, and generate LLM planfiles | Python |
 | [tillm](https://semcod.github.io/tillm/) | Text-interface LLM control plane for semcod/coru shell automation (pair with gillm for GUI). | HTML |
 | [todocs](https://semcod.github.io/todocs/) | Static-analysis documentation generator for project portfolios — WordPress-ready markdown articles without LLM | Python |
 | [toonic](https://semcod.github.io/toonic/) | Toonic — Universal TOON Format Platform for LLM-optimized file representations | Python |
 | [vallm](https://semcod.github.io/vallm/) | A complete toolkit for validating LLM-generated code | HTML |
-| [weekly](https://semcod.github.io/weekly/) | ----------------------------------------------------------------------------- | Python |
+| [weekly](https://semcod.github.io/weekly/) | Weekly | Python |
 | [wup](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |
 | [wupbro](https://semcod.github.io/wupbro/) | WUP Browser Dashboard — FastAPI backend for WUP regression watcher | HTML |
-| [www](https://semcod.github.io/www/) | # Dla dewelopmentu z mock GitHub - zmienne są już ustawione | Python |
+| [www](https://semcod.github.io/www/) | Www | Python |
 
 ### Quality
 

@@ -47,7 +47,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 | Projekt | Opis | Język |
 |---------|------|-------|
-| [nlp2cmd](https://semcod.github.io/nlp2cmd/) | Natural Language to Command — konwersja NLP na bash, docker, makefile, .env | Python |
+| [nlp2cmd](https://semcod.github.io/nlp2cmd/) | NLP2CMD - Transforms natural language into domain-specific commands (SQL, Shell, Docker, Kubernetes) using a multi-layered detection… | Python |
 
 ### Projects
 

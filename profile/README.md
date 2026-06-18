@@ -1,132 +1,98 @@
-# Semcod
+# wronai
 
-[![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-73-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Organization](https://img.shields.io/badge/GitHub-wronai-black.svg)](https://github.com/wronai)
+[![Projects](https://img.shields.io/badge/projects-69-blue.svg)](https://github.com/wronai?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
+Ekosystem narzędzi AI-first dla programistów — automatyzacja, LLM, DevOps i przetwarzanie języka naturalnego.
 
 ---
 
 ## Projekty
 
-### Automation
-
-| Projekt | Opis | Język |
-|---------|------|-------|
-| [koru](https://semcod.github.io/koru/) | Closed-loop automation across semcod/ repositories. | Python |
-| [planfile](https://semcod.github.io/planfile/) | SDLC automation platform - strategic project management with CI/CD integration and automated bug-fix loops | Python |
-
-### Code Analysis
-
-| Projekt | Opis | Język |
-|---------|------|-------|
-| [code2llm](https://semcod.github.io/code2llm/) | High-performance Python code flow analysis with optimized TOON format - CFG, DFG, call graphs, and intelligent code queries | Python |
-| [code2logic](https://semcod.github.io/code2logic/) | High-performance Python code flow analysis with NLP query processing - CFG, DFG, call graphs, and intelligent code queries | Python |
-
 ### DevOps
 
 | Projekt | Opis | Język |
 |---------|------|-------|
-| [mcp](https://semcod.github.io/mcp/) | System autonomicznej refaktoryzacji kodu oparty na Model Context Protocol (MCP), integrujący: | Python |
-
-### Developer Tools
-
-| Projekt | Opis | Język |
-|---------|------|-------|
-| [goal](https://semcod.github.io/goal/) | Goal - Automated git push with enterprise-grade commit intelligence, smart conventional commit generation based on deep code analysis,… | Python |
-
-### LLM & Agents
-
-| Projekt | Opis | Język |
-|---------|------|-------|
-| [curllm](https://semcod.github.io/curllm/) | curllm - Intelligent browser automation with local LLMs (Qwen, Llama, Mistral) for data extraction and form automation using a dynamic… | Python |
-| [prellm](https://semcod.github.io/prellm/) | One function for small LLM preprocessing before large LLM execution. | Python |
-
-### NLP & Voice
-
-| Projekt | Opis | Język |
-|---------|------|-------|
-| [nlp2cmd](https://semcod.github.io/nlp2cmd/) | NLP2CMD - Transforms natural language into domain-specific commands (SQL, Shell, Docker, Kubernetes) using a multi-layered detection… | Python |
+| [mcp](https://wronai.github.io/mcp/) | !GitHub stars | HTML |
 
 ### Projects
 
 | Projekt | Opis | Język |
 |---------|------|-------|
-| [algitex](https://semcod.github.io/algitex/) | Progressive algorithmization toolchain — from LLM to deterministic code, from proxy to tickets | Python |
-| [ats-benchmark](https://semcod.github.io/ats-benchmark/) | -----------------------|-----------------------------------------| | Python |
-| [clickmd](https://semcod.github.io/clickmd/) | Markdown rendering for CLI applications with syntax highlighting | HTML |
-| [code2docs](https://semcod.github.io/code2docs/) | Auto-generate and sync project documentation from source code analysis | Python |
-| [code2schema](https://semcod.github.io/code2schema/) | Semantic compiler: Code → AST → CQRS Model → Workflow DAG → Proto/Schema | HTML |
-| [codot](https://semcod.github.io/codot/) | CQRS-URL Platform - Commands and Queries as URL-addressable resources | HTML |
-| [costs](https://semcod.github.io/costs/) | Zero-config AI cost calculator per commit/model with liteLLM | HTML |
-| [dbos](https://semcod.github.io/dbos/) | ------ | ----------------------- | -----------------------------------------------| | HTML |
-| [deta](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
-| [docval](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
-| [domd](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
-| [env2llm](https://semcod.github.io/env2llm/) | Generate environment maps (services, artifacts, env vars) for LLM decision-making | HTML |
-| [fixop](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
-| [fixos](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
-| [gillm](https://semcod.github.io/gillm/) | GUI Control Plugin with NLP & Intent Contracts | HTML |
-| [giton](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
-| [godot](https://semcod.github.io/godot/) | > Repository initialized with an initial commit. No file-level changes or TODOs are present in this snapshot. | HTML |
-| [heal](https://semcod.github.io/heal/) | A Python package for healing and wellness | Python |
-| [hillm](https://semcod.github.io/hillm/) | Hardware Interface LLM — control displays, cameras, audio, USB, serial, Modbus, and more. | Python |
-| [imgl](https://semcod.github.io/imgl/) | Image to Layout — screenshot OCR and semantic UI reconstruction | Python |
-| [intract](https://semcod.github.io/intract/) | Intent contract tagging, validation and semantic mapping for codebases. | HTML |
-| [iterun](https://semcod.github.io/iterun/) | DSL-based intent execution system with iterative refinement, featuring AI-powered suggestions via Ollama, safe simulation, and automatic… | HTML |
-| [llx](https://semcod.github.io/llx/) | Intelligent LLM model router driven by real code metrics — successor to preLLM | Python |
-| [mdflow](https://semcod.github.io/mdflow/) | Markdown dependency analyzer — extract all dependencies, generate diagrams and charts | HTML |
-| [metrun](https://semcod.github.io/metrun/) | Execution Intelligence Tool — Bottleneck Engine + Human Report Generator | Python |
-| [nexu](https://semcod.github.io/nexu/) | Visual Intent Contract Orchestrator: freeze project slices, evolve capsules, verify intent contracts. | Python |
-| [nfo](https://semcod.github.io/nfo/) | Automatic function logging system with decorators, supporting multiple output sinks (SQLite, CSV, Markdown, Prometheus) and LLM-powered… | Python |
-| [nlp2dsl](https://semcod.github.io/nlp2dsl/) | Reusable Python SDK for the NLP2DSL platform | Python |
-| [nlp2env](https://semcod.github.io/nlp2env/) | MCP server for reading and writing .env variables (email/SMTP and custom keys) | Python |
-| [nlp2uri](https://semcod.github.io/nlp2uri/) | Natural language to URI resolution and cross-platform local URI execution | Python |
-| [nxdo](https://semcod.github.io/nxdo/) | Generate the next 10 project tasks from project state, git history and an LLM prompt. | HTML |
-| [op3](https://semcod.github.io/op3/) | Layered operations tree — observe, diff, orchestrate infrastructure as data | Python |
-| [pactfix](https://semcod.github.io/pactfix/) | - ⚡ Real-time analysis - Błędy widoczne podczas pisania | Python |
-| [pfix](https://semcod.github.io/pfix/) | Self-healing Python — catches runtime errors, fixes code & dependencies via LLM + MCP | Python |
-| [prefact](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
-| [protos](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
-| [proxym](https://semcod.github.io/proxym/) | Intelligent AI proxy with multi-provider routing, semantic caching, and delta context buffers | Python |
-| [pyqual-demo](https://semcod.github.io/pyqual-demo/) | > Initial commit: project scaffold created with baseline repository structure. | HTML |
-| [qualbench](https://semcod.github.io/qualbench/) | CI for AI-generated code — measures production readiness, not just correctness | Python |
-| [redsl](https://semcod.github.io/redsl/) | ReDSL — Refactor + DSL + Self-Learning. LLM-powered autonomous code refactoring. | Python |
-| [redup](https://semcod.github.io/redup/) | Code duplication analyzer and refactoring planner for LLMs | HTML |
-| [regix](https://semcod.github.io/regix/) | Regression Index — detect and measure code quality regressions between git versions | Python |
-| [regres](https://semcod.github.io/regres/) | Regression/import diagnostics helpers with TOON reports | Python |
-| [reko](https://semcod.github.io/reko/) | Refaktoryzacja hardkodowanych wartości, struktur i kodu w projektach Python | HTML |
-| [repatch](https://semcod.github.io/repatch/) | Scope-based HTML/CSS/DOM patch utilities and LLM patch helpers | HTML |
-| [resplit](https://semcod.github.io/resplit/) | Historical deployment analysis — walk git history, deploy per day, test all endpoints, capture screenshots, restore working fragments | Python |
-| [semcod](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
-| [skillm](https://semcod.github.io/skillm/) | Instrukcja integracji MCP: examples/open-webui/README.md. | Python |
-| [sumd](https://semcod.github.io/sumd/) | SUMD - Structured Unified Markdown Descriptor for AI-aware project documentation | Python |
-| [swop](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
-| [tagi](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
-| [taskill](https://semcod.github.io/taskill/) | Daily project hygiene: keep README / CHANGELOG / TODO in sync with reality. LLM-first, algorithmic fallback. | Python |
-| [taskinity](https://semcod.github.io/taskinity/) | > Initial commit created the repository. No files changed since the last run and TODO.md is empty. | HTML |
-| [testless](https://semcod.github.io/testless/) | Analyze test value, coverage, duplication, and generate LLM planfiles | Python |
-| [tillm](https://semcod.github.io/tillm/) | Text-interface LLM control plane for semcod/coru shell automation (pair with gillm for GUI). | HTML |
-| [todocs](https://semcod.github.io/todocs/) | Static-analysis documentation generator for project portfolios — WordPress-ready markdown articles without LLM | Python |
-| [toonic](https://semcod.github.io/toonic/) | Toonic — Universal TOON Format Platform for LLM-optimized file representations | Python |
-| [vallm](https://semcod.github.io/vallm/) | A complete toolkit for validating LLM-generated code | HTML |
-| [weekly](https://semcod.github.io/weekly/) | ----------------------------------------------------------------------------- | Python |
-| [wup](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |
-| [wupbro](https://semcod.github.io/wupbro/) | WUP Browser Dashboard — FastAPI backend for WUP regression watcher | HTML |
-| [www](https://semcod.github.io/www/) | # Dla dewelopmentu z mock GitHub - zmienne są już ustawione | Python |
-
-### Quality
-
-| Projekt | Opis | Język |
-|---------|------|-------|
-| [pyqual](https://semcod.github.io/pyqual/) | Declarative quality gate loops for AI-assisted development | Python |
+| [2025-06](https://wronai.github.io/2025-06/) | 2025 06 | Python |
+| [airun](https://wronai.github.io/airun/) | Airun | Python |
+| [allama](https://wronai.github.io/allama/) | !GitHub stars | Python |
+| [assistant](https://wronai.github.io/assistant/) | Assistant | — |
+| [beepload](https://wronai.github.io/beepload/) | Beepload | HTML |
+| [captcha](https://wronai.github.io/captcha/) | Captcha | HTML |
+| [clonebox](https://wronai.github.io/clonebox/) | CloneBox - Selective workstation environment cloning to isolated VMs or containers using bind mounts, featuring auto-detection,… | Python |
+| [codereview](https://wronai.github.io/codereview/) | CodeReview.pl — Desktop mentoring tool with Docker VM, screen sharing, remote terminal and chat | JavaScript |
+| [contract](https://wronai.github.io/contract/) | Reclapp - AI-Native Declarative Platform for autonomous B2B applications with causal reasoning, 8-stage validation pipeline, and… | TypeScript |
+| [coresifu](https://wronai.github.io/coresifu/) | - Syntax check po patchu — rollback jeśli zepsuty Python | Python |
+| [coreskill](https://wronai.github.io/coreskill/) | Skille są ewoluujące i mogą być tworzone automatycznie: | Python |
+| [devix](https://wronai.github.io/devix/) | Devix - Modular code analysis platform with specialized analyzers for project scanning, security, quality, test coverage, and… | Python |
+| [docker-platform](https://wronai.github.io/docker-platform/) | Media Vault Project Explorer | Go |
+| [dockevos](https://wronai.github.io/dockevos/) | Dockevos | Python |
+| [dockfra](https://wronai.github.io/dockfra/) | cd /path/to/your-project # must have subdirs with docker-compose.yml | Python |
+| [dockfra-app](https://wronai.github.io/dockfra-app/) | Dockfra App | Shell |
+| [docs](https://wronai.github.io/docs/) | Docs | — |
+| [edge](https://wronai.github.io/edge/) | Edge | Python |
+| [ellma](https://wronai.github.io/ellma/) | > Evolutionary Local LLM Agent - Self-improving AI assistant that evolves with your needs | Python |
+| [ellmo](https://wronai.github.io/ellmo/) | Ellmo | Shell |
+| [find](https://wronai.github.io/find/) | mmap jest WOLNIEJSZY niż zwykły read() — to ważne odkrycie. Na małych plikach (nasze testowe to 20–200 słów) overhead mmap.map() per… | HTML |
+| [fixell](https://wronai.github.io/fixell/) | Fixell - Zdalna naprawa systemu Linux z AI (Ollama) w trybie awaryjnym, wspierająca Fedorę, Ubuntu i Debiana poprzez interaktywną… | Python |
+| [follm](https://wronai.github.io/follm/) | AI-powered form filler using Playwright - Automate form filling with ease | HTML |
+| [follme](https://wronai.github.io/follme/) | Follme | — |
+| [formagent](https://wronai.github.io/formagent/) | Automated form filling and job application tool | JavaScript |
+| [formap](https://wronai.github.io/formap/) | Formap | Python |
+| [fraq](https://wronai.github.io/fraq/) | Fractal Query Data Library — model data as infinite, self-similar fractal structures | HTML |
+| [getv](https://wronai.github.io/getv/) | Universal .env variable manager — read, write, encrypt, delegate across services and devices | Python |
+| [git2wp](https://wronai.github.io/git2wp/) | Backend dla automatycznego generowania i publikowania artykułów WordPress na podstawie aktywności Git | JavaScript |
+| [go-forward-llm](https://wronai.github.io/go-forward-llm/) | Go Forward Llm | PowerShell |
+| [gollm](https://wronai.github.io/gollm/) | Go Learn, Lead, Master! - Inteligentny system kontroli jakości kodu z integracją LLM | Python |
+| [hypervisor](https://wronai.github.io/hypervisor/) | TellMesh — URI-first agent monorepo umbrella (uri3, nl2uri, hypervisor, agent factory) | HTML |
+| [img2nl](https://wronai.github.io/img2nl/) | Image → natural language summary with heuristics, thumbnails, and LLM transport hints | HTML |
+| [inceptor](https://wronai.github.io/inceptor/) | Inceptor | HTML |
+| [intent](https://wronai.github.io/intent/) | IntentForge - Intent-Driven Development Framework that turns natural language into executable code, featuring secure sandboxed… | Python |
+| [llamacpp-installer](https://wronai.github.io/llamacpp-installer/) | Llamacpp Installer | Python |
+| [llm](https://wronai.github.io/llm/) | WronAI - Open-source Polish large language model optimized for consumer hardware (8GB+ VRAM), utilizing QLoRA fine-tuning and… | Python |
+| [llm-demo](https://wronai.github.io/llm-demo/) | Llm Demo | Python |
+| [llmap](https://wronai.github.io/llmap/) | Llmap | — |
+| [mdiss](https://wronai.github.io/mdiss/) | Mdiss | Python |
+| [mediacamel](https://wronai.github.io/mediacamel/) | Mediacamel | HTML |
+| [mediauth](https://wronai.github.io/mediauth/) | Mediauth | JavaScript |
+| [mlc-llm](https://wronai.github.io/mlc-llm/) | Mlc Llm | Python |
+| [mullm](https://wronai.github.io/mullm/) | - Task: Represents work units with state transitions | Python |
+| [nlp3](https://wronai.github.io/nlp3/) | Universal Context Navigator - Navigate any data structure using natural language | Python |
+| [ocr](https://wronai.github.io/ocr/) | Advanced PDF OCR Processor utilizing local AI models (Ollama) for text extraction, image enhancement, and generating selectable text… | Python |
+| [ollama](https://wronai.github.io/ollama/) | Ollama | Shell |
+| [projektor](https://wronai.github.io/projektor/) | Projektor - LLM-orchestrated project management and DevOps automation framework that transforms vision into reality through automated… | Python |
+| [proxeen](https://wronai.github.io/proxeen/) | Proxeen — AI Desktop Assistant with real-time screen analysis, voice recognition, and window context awareness. | Python |
+| [quality](https://wronai.github.io/quality/) | Automatic code quality enforcement at interpreter level | Python |
+| [rag1](https://wronai.github.io/rag1/) | Zestaw narzędzi do eksperymentów z Retrieval-Augmented Generation (RAG) oparty na skrypcie rag.py. Repozytorium zawiera gotowy skrypt… | Python |
+| [shapi](https://wronai.github.io/shapi/) | Shapi | HTML |
+| [shellguard](https://wronai.github.io/shellguard/) | Shellguard | Shell |
+| [sifu](https://wronai.github.io/sifu/) | Sifu | Python |
+| [spyq](https://wronai.github.io/spyq/) | SPYQ - Shell Python Quality Guard | Python |
+| [stts](https://wronai.github.io/stts/) | stts (Universal Voice Shell) - Cross-platform wrapper for Speech-to-Text and Text-to-Speech engines (Vosk, Piper, Whisper, eSpeak) with… | Python |
+| [taskguard](https://wronai.github.io/taskguard/) | Taskguard | Python |
+| [tellm](https://wronai.github.io/tellm/) | - Getting started - instalacja, konfiguracja, CLI, UI i użycie z Pythona. | Python |
+| [teLLMe](https://wronai.github.io/teLLMe/) | teLLMe — Unified voice+LLM platform for local code, media, and service control via wronai ecosystem (stts, nlp2cmd, code2llm, toonic,… | Python |
+| [text2dsl](https://wronai.github.io/text2dsl/) | text2dsl - Multi-language voice and text interaction framework for developer tools (Make, Git, Docker) using a DSL layer with… | Python |
+| [textx](https://wronai.github.io/textx/) | !GitHub stars | Python |
+| [todomat](https://wronai.github.io/todomat/) | Todomat — TODO orchestration with NLP2DSL, ITERUN, and curllm pipelines | Python |
+| [vdisplay](https://wronai.github.io/vdisplay/) | Cross-platform virtual display orchestration with virtual and mirror sessions | Python |
+| [webops](https://wronai.github.io/webops/) | Webops | Python |
+| [wrd](https://wronai.github.io/wrd/) | WRD (WRonai Development) - A powerful workflow automation tool for developers | Python |
+| [www](https://wronai.github.io/www/) | A static dashboard to showcase WronAI's open source projects with automatic repository analysis. | Python |
+| [xnv](https://wronai.github.io/xnv/) | Python virtual environment doctor — diagnose and fix broken venvs, pip, poetry locks | Python |
 
 ---
 
 ## Statystyki
 
-- **Łącznie projektów**: 72
-- **Strony projektów**: `https://semcod.github.io/<repo>/`
+- **Łącznie projektów**: 68
+- **Strony projektów**: `https://wronai.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-06-18_

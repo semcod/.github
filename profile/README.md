@@ -64,7 +64,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [docval](https://github.com/semcod/docval) · [www](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
 | [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | !License: Apache-2.0 !Python Version !Code Style: Black !Tests !Docker Support !Documentation | Python |
-| [env2llm](https://github.com/semcod/env2llm) · [www](https://semcod.github.io/env2llm/) | Generate environment maps (services, artifacts, env vars) for LLM decision-making | HTML |
+| [env2llm](https://github.com/semcod/env2llm) · [www](https://semcod.github.io/env2llm/) | Generate environment maps (services, artifacts, env vars) for LLM decision-making | Python |
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
 | [gillm](https://github.com/semcod/gillm) · [www](https://semcod.github.io/gillm/) | GUI Control Plugin with NLP & Intent Contracts | HTML |
@@ -92,13 +92,13 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [proxym](https://github.com/semcod/proxym) · [www](https://semcod.github.io/proxym/) | Intelligent AI proxy with multi-provider routing, semantic caching, and delta context buffers | Python |
 | [pyqual-demo](https://github.com/semcod/pyqual-demo) · [www](https://semcod.github.io/pyqual-demo/) | Pyqual Demo | HTML |
 | [qualbench](https://github.com/semcod/qualbench) · [www](https://semcod.github.io/qualbench/) | CI for AI-generated code — measures production readiness, not just correctness | Python |
+| [rebuild](https://github.com/semcod/rebuild) · [www](https://semcod.github.io/rebuild/) | Historical deployment analysis — walk git history, deploy per day, test all endpoints, capture screenshots, restore working fragments | Python |
 | [redsl](https://github.com/semcod/redsl) · [www](https://semcod.github.io/redsl/) | ReDSL — Refactor + DSL + Self-Learning. LLM-powered autonomous code refactoring. | Python |
 | [redup](https://github.com/semcod/redup) · [www](https://semcod.github.io/redup/) | Code duplication analyzer and refactoring planner for LLMs | HTML |
 | [regix](https://github.com/semcod/regix) · [www](https://semcod.github.io/regix/) | Regression Index — detect and measure code quality regressions between git versions | Python |
 | [regres](https://github.com/semcod/regres) · [www](https://semcod.github.io/regres/) | Regression/import diagnostics helpers with TOON reports | Python |
 | [reko](https://github.com/semcod/reko) · [www](https://semcod.github.io/reko/) | Refaktoryzacja hardkodowanych wartości, struktur i kodu w projektach Python | HTML |
 | [repatch](https://github.com/semcod/repatch) · [www](https://semcod.github.io/repatch/) | Scope-based HTML/CSS/DOM patch utilities and LLM patch helpers | HTML |
-| [resplit](https://github.com/semcod/resplit) · [www](https://semcod.github.io/resplit/) | Historical deployment analysis — walk git history, deploy per day, test all endpoints, capture screenshots, restore working fragments | Python |
 | [semcod](https://github.com/semcod/semcod) · [www](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
 | [sumd](https://github.com/semcod/sumd) · [www](https://semcod.github.io/sumd/) | SUMD - Structured Unified Markdown Descriptor for AI-aware project documentation | Python |

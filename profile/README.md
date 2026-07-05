@@ -87,7 +87,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [op3](https://github.com/semcod/op3) · [www](https://semcod.github.io/op3/) | Layered operations tree — observe, diff, orchestrate infrastructure as data | Python |
 | [pactfix](https://github.com/semcod/pactfix) · [www](https://semcod.github.io/pactfix/) | Real-time Bash script analyzer and auto-fixer with ShellCheck integration. | Python |
 | [pfix](https://github.com/semcod/pfix) · [www](https://semcod.github.io/pfix/) | Self-healing Python — catches runtime errors, fixes code & dependencies via LLM + MCP | Python |
-| [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
+| [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | HTML |
 | [protos](https://github.com/semcod/protos) · [www](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
 | [proxym](https://github.com/semcod/proxym) · [www](https://semcod.github.io/proxym/) | Intelligent AI proxy with multi-provider routing, semantic caching, and delta context buffers | Python |
 | [pyqual-demo](https://github.com/semcod/pyqual-demo) · [www](https://semcod.github.io/pyqual-demo/) | Pyqual Demo | HTML |

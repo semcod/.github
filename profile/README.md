@@ -63,7 +63,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [dbos](https://github.com/semcod/dbos) · [www](https://semcod.github.io/dbos/) | Dbos | HTML |
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [docval](https://github.com/semcod/docval) · [www](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
-| [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | !License: Apache-2.0 !Python Version !Code Style: Black !Tests !Docker Support !Documentation | Python |
+| [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
 | [env2llm](https://github.com/semcod/env2llm) · [www](https://semcod.github.io/env2llm/) | Generate environment maps (services, artifacts, env vars) for LLM decision-making | Python |
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |

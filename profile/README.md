@@ -112,7 +112,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [toonic](https://github.com/semcod/toonic) · [www](https://semcod.github.io/toonic/) | Toonic — Universal TOON Format Platform for LLM-optimized file representations | Python |
 | [vallm](https://github.com/semcod/vallm) · [www](https://semcod.github.io/vallm/) | A complete toolkit for validating LLM-generated code | HTML |
 | [weekly](https://github.com/semcod/weekly) · [www](https://semcod.github.io/weekly/) | Weekly | Python |
-| [wup](https://github.com/semcod/wup) · [www](https://semcod.github.io/wup/) | Wup | Python |
+| [wup](https://github.com/semcod/wup) · [www](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |
 | [wupbro](https://github.com/semcod/wupbro) · [www](https://semcod.github.io/wupbro/) | WUP Browser Dashboard — FastAPI backend for WUP regression watcher | HTML |
 | [www](https://github.com/semcod/www) · [www](https://semcod.github.io/www/) | Www | Python |
 
@@ -129,4 +129,4 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 - **Łącznie projektów**: 72
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
-_Ostatnia aktualizacja: 2026-07-09_
+_Ostatnia aktualizacja: 2026-07-10_

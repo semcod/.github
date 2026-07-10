@@ -63,7 +63,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [dbos](https://github.com/semcod/dbos) · [www](https://semcod.github.io/dbos/) | Dbos | HTML |
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [docval](https://github.com/semcod/docval) · [www](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
-| [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | !License: Apache-2.0 !Python Version !Code Style: Black !Tests !Docker Support !Documentation | Python |
+| [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
 | [env2llm](https://github.com/semcod/env2llm) · [www](https://semcod.github.io/env2llm/) | Generate environment maps (services, artifacts, env vars) for LLM decision-making | Python |
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
@@ -89,7 +89,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [pfix](https://github.com/semcod/pfix) · [www](https://semcod.github.io/pfix/) | Self-healing Python — catches runtime errors, fixes code & dependencies via LLM + MCP | Python |
 | [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
 | [protos](https://github.com/semcod/protos) · [www](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
-| [proxym](https://github.com/semcod/proxym) · [www](https://semcod.github.io/proxym/) | Proxym | Python |
+| [proxym](https://github.com/semcod/proxym) · [www](https://semcod.github.io/proxym/) | Intelligent AI proxy with multi-provider routing, semantic caching, and delta context buffers | Python |
 | [pyqual-demo](https://github.com/semcod/pyqual-demo) · [www](https://semcod.github.io/pyqual-demo/) | Pyqual Demo | HTML |
 | [qualbench](https://github.com/semcod/qualbench) · [www](https://semcod.github.io/qualbench/) | CI for AI-generated code — measures production readiness, not just correctness | Python |
 | [rebuild](https://github.com/semcod/rebuild) · [www](https://semcod.github.io/rebuild/) | Historical deployment analysis — walk git history, deploy per day, test all endpoints, capture screenshots, restore working fragments | Python |

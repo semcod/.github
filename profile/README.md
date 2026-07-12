@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-73-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-74-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -61,6 +61,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [codot](https://github.com/semcod/codot) · [www](https://semcod.github.io/codot/) | CQRS-URL Platform - Commands and Queries as URL-addressable resources | HTML |
 | [costs](https://github.com/semcod/costs) · [www](https://semcod.github.io/costs/) | Zero-config AI cost calculator per commit/model with liteLLM | HTML |
 | [dbos](https://github.com/semcod/dbos) · [www](https://semcod.github.io/dbos/) | Dbos | HTML |
+| [deconnnected](https://github.com/semcod/deconnnected) · [www](https://semcod.github.io/deconnnected/) | Cross-layer dependency correlation and safe refactoring planner for applications. | Python |
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [docval](https://github.com/semcod/docval) · [www](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
 | [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
@@ -126,7 +127,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 72
+- **Łącznie projektów**: 73
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-07-12_

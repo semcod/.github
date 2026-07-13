@@ -121,7 +121,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 | Projekt | Opis | Język |
 |---------|------|-------|
-| [pyqual](https://github.com/semcod/pyqual) · [www](https://semcod.github.io/pyqual/) | Pyqual | Python |
+| [pyqual](https://github.com/semcod/pyqual) · [www](https://semcod.github.io/pyqual/) | Declarative quality gate loops for AI-assisted development | Python |
 
 ---
 

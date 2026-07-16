@@ -94,7 +94,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [pyqual-demo](https://github.com/semcod/pyqual-demo) · [www](https://semcod.github.io/pyqual-demo/) | Pyqual Demo | HTML |
 | [qualbench](https://github.com/semcod/qualbench) · [www](https://semcod.github.io/qualbench/) | CI for AI-generated code — measures production readiness, not just correctness | Python |
 | [rebuild](https://github.com/semcod/rebuild) · [www](https://semcod.github.io/rebuild/) | Historical deployment analysis — walk git history, deploy per day, test all endpoints, capture screenshots, restore working fragments | Python |
-| [redeploy](https://github.com/semcod/redeploy) · [www](https://semcod.github.io/redeploy/) | Redeploy | — |
+| [redeploy](https://github.com/semcod/redeploy) · [www](https://semcod.github.io/redeploy/) | Redeploy | Python |
 | [redsl](https://github.com/semcod/redsl) · [www](https://semcod.github.io/redsl/) | ReDSL — Refactor + DSL + Self-Learning. LLM-powered autonomous code refactoring. | Python |
 | [redup](https://github.com/semcod/redup) · [www](https://semcod.github.io/redup/) | Code duplication analyzer and refactoring planner for LLMs | HTML |
 | [regix](https://github.com/semcod/regix) · [www](https://semcod.github.io/regix/) | Regression Index — detect and measure code quality regressions between git versions | Python |

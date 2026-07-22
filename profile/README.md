@@ -96,7 +96,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [rebuild](https://github.com/semcod/rebuild) · [www](https://semcod.github.io/rebuild/) | Historical deployment analysis — walk git history, deploy per day, test all endpoints, capture screenshots, restore working fragments | Python |
 | [redeploy](https://github.com/semcod/redeploy) · [www](https://semcod.github.io/redeploy/) | Infrastructure migration toolkit: detect → plan → apply | Python |
 | [redsl](https://github.com/semcod/redsl) · [www](https://semcod.github.io/redsl/) | ReDSL — Refactor + DSL + Self-Learning. LLM-powered autonomous code refactoring. | Python |
-| [redup](https://github.com/semcod/redup) · [www](https://semcod.github.io/redup/) | Code duplication analyzer and refactoring planner for LLMs | HTML |
+| [redup](https://github.com/semcod/redup) · [www](https://semcod.github.io/redup/) | Code duplication analyzer and refactoring planner for LLMs | Python |
 | [regix](https://github.com/semcod/regix) · [www](https://semcod.github.io/regix/) | Regression Index — detect and measure code quality regressions between git versions | Python |
 | [regres](https://github.com/semcod/regres) · [www](https://semcod.github.io/regres/) | Regression/import diagnostics helpers with TOON reports | Python |
 | [reko](https://github.com/semcod/reko) · [www](https://semcod.github.io/reko/) | Refaktoryzacja hardkodowanych wartości, struktur i kodu w projektach Python | HTML |

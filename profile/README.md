@@ -110,7 +110,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [taskinity](https://github.com/semcod/taskinity) · [www](https://semcod.github.io/taskinity/) | Taskinity | HTML |
 | [testless](https://github.com/semcod/testless) · [www](https://semcod.github.io/testless/) | Analyze test value, coverage, duplication, and generate LLM planfiles | Python |
 | [tillm](https://github.com/semcod/tillm) · [www](https://semcod.github.io/tillm/) | Text-interface LLM control plane for semcod/coru shell automation (pair with gillm for GUI). | Python |
-| [todo2code](https://github.com/semcod/todo2code) · [www](https://semcod.github.io/todo2code/) | Todo2Code | Shell |
+| [todo2code](https://github.com/semcod/todo2code) · [www](https://semcod.github.io/todo2code/) | todo2code (t2c): deterministic intent extraction, evidence graph, OpenRouter document extraction and team summaries, exposed through… | TypeScript |
 | [todocs](https://github.com/semcod/todocs) · [www](https://semcod.github.io/todocs/) | Static-analysis documentation generator for project portfolios — WordPress-ready markdown articles without LLM | Python |
 | [toonic](https://github.com/semcod/toonic) · [www](https://semcod.github.io/toonic/) | Toonic — Universal TOON Format Platform for LLM-optimized file representations | Python |
 | [vallm](https://github.com/semcod/vallm) · [www](https://semcod.github.io/vallm/) | A complete toolkit for validating LLM-generated code | HTML |

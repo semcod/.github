@@ -70,7 +70,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
 | [gillm](https://github.com/semcod/gillm) · [www](https://semcod.github.io/gillm/) | GUI Control Plugin with NLP & Intent Contracts | HTML |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
-| [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | HTML |
+| [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | Python |
 | [godot](https://github.com/semcod/godot) · [www](https://semcod.github.io/godot/) | Godot | HTML |
 | [heal](https://github.com/semcod/heal) · [www](https://semcod.github.io/heal/) | A Python package for healing and wellness | Python |
 | [hillm](https://github.com/semcod/hillm) · [www](https://semcod.github.io/hillm/) | Hardware Interface LLM — control displays, cameras, audio, USB, serial, Modbus, and more. | Python |
@@ -133,4 +133,4 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 - **Łącznie projektów**: 76
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
-_Ostatnia aktualizacja: 2026-08-12_
+_Ostatnia aktualizacja: 2026-08-13_

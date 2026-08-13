@@ -60,7 +60,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [code2schema](https://github.com/semcod/code2schema) · [www](https://semcod.github.io/code2schema/) | Semantic compiler: Code → AST → CQRS Model → Workflow DAG → Proto/Schema | HTML |
 | [codot](https://github.com/semcod/codot) · [www](https://semcod.github.io/codot/) | CQRS-URL Platform - Commands and Queries as URL-addressable resources | HTML |
 | [costs](https://github.com/semcod/costs) · [www](https://semcod.github.io/costs/) | Zero-config AI cost calculator per commit/model with liteLLM | HTML |
-| [data2dsl](https://github.com/semcod/data2dsl) · [www](https://semcod.github.io/data2dsl/) | Evidence-backed data-to-DSL composition and comparison layer | Python |
+| [data2dsl](https://github.com/semcod/data2dsl) · [www](https://semcod.github.io/data2dsl/) | Data2Dsl | Python |
 | [dbos](https://github.com/semcod/dbos) · [www](https://semcod.github.io/dbos/) | Dbos | HTML |
 | [deconnnected](https://github.com/semcod/deconnnected) · [www](https://semcod.github.io/deconnnected/) | Cross-layer dependency correlation and safe refactoring planner for applications. | Python |
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |

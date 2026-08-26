@@ -55,14 +55,14 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [docval](https://github.com/semcod/docval) · [www](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
 | [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
-| [estimation](https://github.com/semcod/estimation) · [www](https://semcod.github.io/estimation/) | Empirical CPU, memory, I/O and duration estimation for ticket-bound URI processes | Python |
+| [estimation](https://github.com/semcod/estimation) · [www](https://semcod.github.io/estimation/) | Historical CPU, memory, I/O and duration estimates for ticket-bound URI processes | Python |
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
 | [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | Python |
 | [godot](https://github.com/semcod/godot) · [www](https://semcod.github.io/godot/) | Godot | HTML |
 | [heal](https://github.com/semcod/heal) · [www](https://semcod.github.io/heal/) | A Python package for healing and wellness | Python |
-| [korullm](https://github.com/semcod/korullm) · [www](https://semcod.github.io/korullm/) | Policy-aware LLM routing and provider contracts extracted from Koru. | Python |
+| [korullm](https://github.com/semcod/korullm) · [www](https://semcod.github.io/korullm/) | Policy-aware LLM routing, transports and drive strategies extracted from Koru. | Python |
 | [llx](https://github.com/semcod/llx) · [www](https://semcod.github.io/llx/) | Intelligent LLM model router driven by real code metrics — successor to preLLM | Python |
 | [mdflow](https://github.com/semcod/mdflow) · [www](https://semcod.github.io/mdflow/) | Markdown dependency analyzer — extract all dependencies, generate diagrams and charts | HTML |
 | [metrun](https://github.com/semcod/metrun) · [www](https://semcod.github.io/metrun/) | Execution Intelligence Tool — Bottleneck Engine + Human Report Generator | Python |

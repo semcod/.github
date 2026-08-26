@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-56-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-57-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -55,6 +55,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [docval](https://github.com/semcod/docval) · [www](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
 | [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
+| [estimation](https://github.com/semcod/estimation) · [www](https://semcod.github.io/estimation/) | Empirical CPU, memory, I/O and duration estimation for ticket-bound URI processes | Python |
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
@@ -104,7 +105,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 55
+- **Łącznie projektów**: 56
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
-_Ostatnia aktualizacja: 2026-08-24_
+_Ostatnia aktualizacja: 2026-08-26_

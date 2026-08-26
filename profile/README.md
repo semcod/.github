@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-57-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-58-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -62,6 +62,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | Python |
 | [godot](https://github.com/semcod/godot) · [www](https://semcod.github.io/godot/) | Godot | HTML |
 | [heal](https://github.com/semcod/heal) · [www](https://semcod.github.io/heal/) | A Python package for healing and wellness | Python |
+| [korullm](https://github.com/semcod/korullm) · [www](https://semcod.github.io/korullm/) | Policy-aware LLM routing and provider contracts extracted from Koru. | Python |
 | [llx](https://github.com/semcod/llx) · [www](https://semcod.github.io/llx/) | Intelligent LLM model router driven by real code metrics — successor to preLLM | Python |
 | [mdflow](https://github.com/semcod/mdflow) · [www](https://semcod.github.io/mdflow/) | Markdown dependency analyzer — extract all dependencies, generate diagrams and charts | HTML |
 | [metrun](https://github.com/semcod/metrun) · [www](https://semcod.github.io/metrun/) | Execution Intelligence Tool — Bottleneck Engine + Human Report Generator | Python |
@@ -105,7 +106,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 56
+- **Łącznie projektów**: 57
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-08-26_

@@ -109,4 +109,4 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 - **Łącznie projektów**: 57
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
-_Ostatnia aktualizacja: 2026-08-26_
+_Ostatnia aktualizacja: 2026-08-27_

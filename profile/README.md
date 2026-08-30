@@ -14,7 +14,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 | Projekt | Opis | Język |
 |---------|------|-------|
-| [koru](https://github.com/semcod/koru) · [www](https://semcod.github.io/koru/) | Koru | Python |
+| [koru](https://github.com/semcod/koru) · [www](https://semcod.github.io/koru/) | Closed-loop automation across semcod/ repositories. | Python |
 | [planfile](https://github.com/semcod/planfile) · [www](https://semcod.github.io/planfile/) | Planfile | Python |
 
 ### Code Analysis

@@ -3,14 +3,14 @@
   "schema": "wellmanifest.docs/document/v1",
   "id": "org-metadata-sync",
   "kind": "information",
-  "version": 1,
+  "version": 2,
   "title": "Synchronizacja metadanych przez wspólny koordynator",
-  "status": "proposed",
+  "status": "implemented",
   "owner": "semcod/.github",
   "created": "2026-09-06",
   "updated": "2026-09-06",
   "review_after": "2026-09-13",
-  "source_revision": "819770c5dbac17d93fbf21204d4509947d341c70",
+  "source_revision": "406fb4b692680b3d69d25ee9570e81869afbd0c5",
   "affected_repositories": [
     "semcod/.github"
   ],
@@ -37,14 +37,14 @@ Właścicielem mechanizmu jest semcod/.github. Lista zarządzanych zewnętrznych
 <!-- docs:section evidence -->
 ## Dowody
 
-Wersja źródłowa jest przypięta w metadanych. [Nieudana synchronizacja imgl](https://github.com/autogrammar/imgl/actions/runs/33995006182) zgłosiła brak tokena. Nowy resolver czyta plik zdarzenia JSON zamiast wstawiać payload do kodu powłoki; odpowiada to [zaleceniom GitHub dotyczącym niezaufanych danych](https://docs.github.com/en/actions/reference/security/secure-use). Testy w org-sync/tests sprawdzają właściciela, złośliwe dane wejściowe, prywatne repozytoria, izolację profilu, propagację błędów i zachowanie lokalnej pracy.
+Wersja źródłowa jest przypięta w metadanych. [Nieudana synchronizacja imgl](https://github.com/autogrammar/imgl/actions/runs/33995006182) zgłosiła brak tokena. [Testy koordynatora](https://github.com/semcod/.github/actions/runs/33996073150) potwierdziły 19 scenariuszy. [Podgląd](https://github.com/semcod/.github/actions/runs/33996072826) oraz [wykonanie z zapisem dla imgl](https://github.com/semcod/.github/actions/runs/33996250463) zakończyły się sukcesem. Ponowny odczyt API potwierdził temat `autogrammar` i zachowany adres WWW. Nowy resolver czyta plik zdarzenia JSON zamiast wstawiać payload do kodu powłoki; odpowiada to [zaleceniom GitHub dotyczącym niezaufanych danych](https://docs.github.com/en/actions/reference/security/secure-use). Testy w org-sync/tests sprawdzają właściciela, złośliwe dane wejściowe, prywatne repozytoria, izolację profilu, propagację błędów i zachowanie lokalnej pracy.
 
 <!-- docs:section content -->
 ## Działanie i obsługa
 
 Istniejący harmonogram `17 */6 * * *` wykonuje synchronizację Semcod oraz czterech jawnie zarządzanych projektów Autogrammar. Ich opisy i tematy aktualizuje tryb `--metadata-only --skip-profile`; adresy WWW, GitHub Pages i profil organizacji pozostają poza tym trybem. Dla Semcod zachowano dotychczasową synchronizację wraz z profilem i kontrolą widoczności repozytorium przed konfiguracją Pages.
 
-Repozytoria zarządzane centralnie nie potrzebują lokalnego trigggera ani ORG_SYNC_PAT. Sekret istniejącego koordynatora musi mieć rzeczywiste uprawnienia do modyfikacji wskazanych celów. Nie kopiujemy osobistego tokena operatora do repozytoriów członkowskich.
+Repozytoria zarządzane centralnie nie potrzebują lokalnego triggera ani ORG_SYNC_PAT. Sekret istniejącego koordynatora musi mieć rzeczywiste uprawnienia do modyfikacji wskazanych celów. Nie kopiujemy osobistego tokena operatora do repozytoriów członkowskich.
 
 Podgląd bez zmian:
 

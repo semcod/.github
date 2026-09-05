@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import argparse
+import json
+import re
 import subprocess
 from pathlib import Path
 
@@ -23,6 +25,17 @@ def git_repos(org_root: Path) -> list[Path]:
 
 
 def ensure_trigger(repo: Path, org: str, dry_run: bool, no_push: bool) -> str:
+    remote = subprocess.run(["git", "remote", "get-url", "origin"], cwd=repo, capture_output=True, text=True)
+    identity = re.search(r"github\.com[:/]([^/]+/[^/]+?)(?:\.git)?$", remote.stdout.strip())
+    if remote.returncode or not identity:
+        return "identity_failed"
+    full_name = identity.group(1).lower()
+    if full_name.split("/")[0] != org.lower():
+        return "owner_mismatch"
+    managed_path = Path(__file__).resolve().parent.parent / "managed-repositories.json"
+    managed = json.loads(managed_path.read_text())["scheduled_repositories"]
+    if full_name in managed:
+        return "centrally_scheduled"
     workflow_dir = repo / ".github" / "workflows"
     workflow_path = workflow_dir / "trigger-org-sync.yml"
     content = TEMPLATE.replace("__ORG__", org)
@@ -30,6 +43,9 @@ def ensure_trigger(repo: Path, org: str, dry_run: bool, no_push: bool) -> str:
         return "unchanged"
     if dry_run:
         return "would_write"
+    dirty = subprocess.run(["git", "status", "--porcelain"], cwd=repo, capture_output=True, text=True)
+    if dirty.returncode or dirty.stdout.strip():
+        return "dirty_checkout"
     workflow_dir.mkdir(parents=True, exist_ok=True)
     workflow_path.write_text(content, encoding="utf-8")
 

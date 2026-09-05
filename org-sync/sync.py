@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -27,12 +28,14 @@ def list_org_repos(org: str) -> list[dict]:
     return json.loads(out.stdout)
 
 
-def update_repo_metadata(org: str, name: str, desc: str, homepage: str, topics: list[str], dry_run: bool) -> None:
+def update_repo_metadata(org: str, name: str, desc: str, homepage: str | None, topics: list[str], dry_run: bool) -> None:
     if dry_run:
         print(f"[dry-run] {org}/{name}: desc={desc[:60]}... home={homepage} topics={topics}")
         return
 
-    cmd = ["repo", "edit", f"{org}/{name}", "--description", desc, "--homepage", homepage]
+    cmd = ["repo", "edit", f"{org}/{name}", "--description", desc]
+    if homepage is not None:
+        cmd.extend(["--homepage", homepage])
     for topic in topics:
         cmd.extend(["--add-topic", topic])
 
@@ -41,18 +44,20 @@ def update_repo_metadata(org: str, name: str, desc: str, homepage: str, topics: 
         raise RuntimeError(f"repo edit failed for {org}/{name}: {proc.stderr or proc.stdout}")
 
 
-def sync_repository(org_cfg, name: str, local_root: Path | None, dry_run: bool) -> dict:
+def sync_repository(org_cfg, name: str, local_root: Path | None, dry_run: bool, metadata_only: bool = False) -> dict:
     org = org_cfg.org
-    homepage = f"{org_cfg.homepage_base}/{name}/"
+    homepage = None if metadata_only else f"{org_cfg.homepage_base}/{name}/"
     desc, keywords = extract_description(org, name, local_root)
     topics = infer_topics(org, name, desc, keywords, org_cfg.default_topics)
 
+    if not metadata_only:
+        repo_meta = run_gh(["api", f"repos/{org}/{name}", "--jq", "{name,private}"], check=True)
+        is_private = json.loads(repo_meta.stdout).get("private")
+        if not isinstance(is_private, bool):
+            raise RuntimeError("Repository visibility was not confirmed")
     update_repo_metadata(org, name, desc, homepage, topics, dry_run)
-
     pages_result = "skip"
-    repo_meta = run_gh(["api", f"repos/{org}/{name}", "-q", "{name,isPrivate}"], check=True)
-    is_private = json.loads(repo_meta.stdout).get("isPrivate", False)
-    if not is_private and not dry_run:
+    if not metadata_only and not is_private and not dry_run:
         if not has_pages(org, name):
             pages_result = enable_pages(org, name, "/")
 
@@ -96,8 +101,11 @@ def main() -> int:
     parser.add_argument("--repository", help="Sync single repo name (optional)")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--skip-profile", action="store_true")
+    parser.add_argument("--metadata-only", action="store_true", help="Update only description and topics; preserve homepage, Pages and profile")
     parser.add_argument("--github-root", default=str(GITHUB_ROOT))
     args = parser.parse_args()
+    if args.metadata_only:
+        args.skip_profile = True
 
     org_cfg = load_org_config(args.org)
     local_root = Path(args.github_root) / args.org
@@ -110,6 +118,11 @@ def main() -> int:
         dotgithub = toolkit_root
     else:
         dotgithub = org_dotgithub
+    if not args.skip_profile:
+        remote = subprocess.check_output(["git", "remote", "get-url", "origin"], cwd=dotgithub, text=True).strip()
+        identity = re.search(r"github\.com[:/]([^/]+)/\.github(?:\.git)?$", remote)
+        if not identity or identity.group(1).lower() != org_cfg.org.lower():
+            parser.error("Profile repository must belong to the synchronized organization")
     profile_path = dotgithub / "profile" / "README.md"
 
     repos = list_org_repos(org_cfg.org)
@@ -121,16 +134,18 @@ def main() -> int:
             return 1
 
     updated: list[dict] = []
+    failed = 0
     for repo in targets:
         name = repo["name"]
         if name == ".github":
             continue
         try:
-            result = sync_repository(org_cfg, name, local_root if local_root.exists() else None, args.dry_run)
+            result = sync_repository(org_cfg, name, local_root if local_root.exists() else None, args.dry_run, args.metadata_only)
             updated.append(result)
             print(f"OK {org_cfg.org}/{name}")
             time.sleep(0.05)
         except Exception as exc:  # noqa: BLE001
+            failed += 1
             print(f"ERR {org_cfg.org}/{name}: {exc}", file=sys.stderr)
 
     if not args.skip_profile:
@@ -144,8 +159,8 @@ def main() -> int:
         if changed and dotgithub.exists():
             commit_profile(dotgithub, args.dry_run)
 
-    print(json.dumps({"org": org_cfg.org, "synced": len(updated), "dry_run": args.dry_run}, indent=2))
-    return 0
+    print(json.dumps({"org": org_cfg.org, "synced": len(updated), "failed": failed, "dry_run": args.dry_run}, indent=2))
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":

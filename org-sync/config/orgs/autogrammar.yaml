@@ -1,0 +1,5 @@
+org: autogrammar
+tagline: "Narzędzia do przetwarzania języka i automatyzacji."
+homepage_base: https://autogrammar.github.io
+default_topics:
+  - autogrammar

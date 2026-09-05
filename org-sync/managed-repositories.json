@@ -1,0 +1,10 @@
+{
+  "schema": "org-sync.managed-repositories/v1",
+  "coordinator": "semcod/.github",
+  "scheduled_repositories": [
+    "autogrammar/code2schema",
+    "autogrammar/imgl",
+    "autogrammar/op3",
+    "autogrammar/toonic"
+  ]
+}

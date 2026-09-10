@@ -59,7 +59,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [fixell](https://github.com/semcod/fixell) · [www](https://semcod.github.io/fixell/) | Fixell - Zdalna naprawa systemu Linux z AI (Ollama) w trybie awaryjnym, wspierająca Fedorę, Ubuntu i Debiana poprzez interaktywną… | Python |
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
-| [gitive](https://github.com/semcod/gitive) · [www](https://semcod.github.io/gitive/) | Gitive | Python |
+| [gitive](https://github.com/semcod/gitive) · [www](https://semcod.github.io/gitive/) | Gitive CLI, benchmark controller and private workspace tools | Python |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
 | [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | Python |
 | [godot](https://github.com/semcod/godot) · [www](https://semcod.github.io/godot/) | Godot | HTML |

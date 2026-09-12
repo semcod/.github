@@ -92,7 +92,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
 | [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
 | [taskand](https://github.com/semcod/taskand) · [www](https://semcod.github.io/taskand/) | Taskand | — |
-| [taskand-glm53](https://github.com/semcod/taskand-glm53) · [www](https://semcod.github.io/taskand-glm53/) | Taskand Glm53 | HTML |
+| [taskand-glm53](https://github.com/semcod/taskand-glm53) · [www](https://semcod.github.io/taskand-glm53/) | Taskand Glm53 | Python |
 | [taskill](https://github.com/semcod/taskill) · [www](https://semcod.github.io/taskill/) | Daily project hygiene: keep README / CHANGELOG / TODO in sync with reality. LLM-first, algorithmic fallback. | Python |
 | [taskinity](https://github.com/semcod/taskinity) · [www](https://semcod.github.io/taskinity/) | Taskinity | HTML |
 | [testless](https://github.com/semcod/testless) · [www](https://semcod.github.io/testless/) | Analyze test value, coverage, duplication, and generate LLM planfiles | Python |

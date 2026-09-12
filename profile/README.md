@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-63-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-64-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -91,6 +91,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
 | [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
+| [taskand](https://github.com/semcod/taskand) · [www](https://semcod.github.io/taskand/) | Project in the organization ecosystem. | — |
 | [taskill](https://github.com/semcod/taskill) · [www](https://semcod.github.io/taskill/) | Daily project hygiene: keep README / CHANGELOG / TODO in sync with reality. LLM-first, algorithmic fallback. | Python |
 | [taskinity](https://github.com/semcod/taskinity) · [www](https://semcod.github.io/taskinity/) | Taskinity | HTML |
 | [testless](https://github.com/semcod/testless) · [www](https://semcod.github.io/testless/) | Analyze test value, coverage, duplication, and generate LLM planfiles | Python |
@@ -111,7 +112,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 62
+- **Łącznie projektów**: 63
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-09-12_

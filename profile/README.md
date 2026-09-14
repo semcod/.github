@@ -102,7 +102,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [weekly](https://github.com/semcod/weekly) · [www](https://semcod.github.io/weekly/) | Weekly | Python |
 | [wup](https://github.com/semcod/wup) · [www](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |
 | [wupbro](https://github.com/semcod/wupbro) · [www](https://semcod.github.io/wupbro/) | WUP Browser Dashboard — FastAPI backend for WUP regression watcher | HTML |
-| [www](https://github.com/semcod/www) · [www](https://semcod.github.io/www/) | Www | HTML |
+| [www](https://github.com/semcod/www) · [www](https://semcod.github.io/www/) | Www | PHP |
 
 ### Quality
 

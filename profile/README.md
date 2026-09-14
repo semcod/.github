@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-66-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-67-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -70,6 +70,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [mcp-manager](https://github.com/semcod/mcp-manager) · [www](https://semcod.github.io/mcp-manager/) | MCP Manager - Centrum zarządzania serwerami i klientami Model Context Protocol | HTML |
 | [mdflow](https://github.com/semcod/mdflow) · [www](https://semcod.github.io/mdflow/) | Markdown dependency analyzer — extract all dependencies, generate diagrams and charts | HTML |
 | [metrun](https://github.com/semcod/metrun) · [www](https://semcod.github.io/metrun/) | Execution Intelligence Tool — Bottleneck Engine + Human Report Generator | Python |
+| [monag](https://github.com/semcod/monag) · [www](https://semcod.github.io/monag/) | Interactive terminal dashboard for agent processes, Git workspace activity, and searchable local history | — |
 | [nfo](https://github.com/semcod/nfo) · [www](https://semcod.github.io/nfo/) | Automatic function logging system with decorators, supporting multiple output sinks (SQLite, CSV, Markdown, Prometheus) and LLM-powered… | Python |
 | [nxdo](https://github.com/semcod/nxdo) · [www](https://semcod.github.io/nxdo/) | Generate the next 10 project tasks from project state, git history and an LLM prompt. | Python |
 | [pactfix](https://github.com/semcod/pactfix) · [www](https://semcod.github.io/pactfix/) | Real-time Bash script analyzer and auto-fixer with ShellCheck integration. | Python |
@@ -114,7 +115,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 65
+- **Łącznie projektów**: 66
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-09-14_

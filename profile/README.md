@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-68-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-69-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -47,6 +47,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | Projekt | Opis | Język |
 |---------|------|-------|
 | [algitex](https://github.com/semcod/algitex) · [www](https://semcod.github.io/algitex/) | Progressive algorithmization toolchain — from LLM to deterministic code, from proxy to tickets | Python |
+| [algocode](https://github.com/semcod/algocode) · [www](https://semcod.github.io/algocode/) | Project in the organization ecosystem. | Python |
 | [ats-benchmark](https://github.com/semcod/ats-benchmark) · [www](https://semcod.github.io/ats-benchmark/) | Ats Benchmark | Python |
 | [clickmd](https://github.com/semcod/clickmd) · [www](https://semcod.github.io/clickmd/) | Markdown rendering for CLI applications with syntax highlighting | HTML |
 | [code2docs](https://github.com/semcod/code2docs) · [www](https://semcod.github.io/code2docs/) | Auto-generate and sync project documentation from source code analysis | Python |
@@ -92,7 +93,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [semcod](https://github.com/semcod/semcod) · [www](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
-| [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
+| [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | HTML |
 | [taskand](https://github.com/semcod/taskand) · [www](https://semcod.github.io/taskand/) | Taskand | — |
 | [taskand-glm53](https://github.com/semcod/taskand-glm53) · [www](https://semcod.github.io/taskand-glm53/) | Taskand Glm53 | Python |
 | [taskand-gpt6](https://github.com/semcod/taskand-gpt6) · [www](https://semcod.github.io/taskand-gpt6/) | Taskand Gpt6 | Dockerfile |
@@ -116,7 +117,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 67
+- **Łącznie projektów**: 68
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-09-18_

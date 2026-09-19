@@ -47,7 +47,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | Projekt | Opis | Język |
 |---------|------|-------|
 | [algitex](https://github.com/semcod/algitex) · [www](https://semcod.github.io/algitex/) | Progressive algorithmization toolchain — from LLM to deterministic code, from proxy to tickets | Python |
-| [algocode](https://github.com/semcod/algocode) · [www](https://semcod.github.io/algocode/) | Project in the organization ecosystem. | Python |
+| [algocode](https://github.com/semcod/algocode) · [www](https://semcod.github.io/algocode/) | Algorithmic Code & Backlog Analysis Engine with NL-DSL-LLM Architecture and MCP Server | Python |
 | [ats-benchmark](https://github.com/semcod/ats-benchmark) · [www](https://semcod.github.io/ats-benchmark/) | Ats Benchmark | Python |
 | [clickmd](https://github.com/semcod/clickmd) · [www](https://semcod.github.io/clickmd/) | Markdown rendering for CLI applications with syntax highlighting | HTML |
 | [code2docs](https://github.com/semcod/code2docs) · [www](https://semcod.github.io/code2docs/) | Auto-generate and sync project documentation from source code analysis | Python |
@@ -120,4 +120,4 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 - **Łącznie projektów**: 68
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
-_Ostatnia aktualizacja: 2026-09-18_
+_Ostatnia aktualizacja: 2026-09-19_

@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-69-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-70-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -54,6 +54,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [costs](https://github.com/semcod/costs) · [www](https://semcod.github.io/costs/) | Zero-config AI cost calculator per commit/model with liteLLM | Python |
 | [deconnnected](https://github.com/semcod/deconnnected) · [www](https://semcod.github.io/deconnnected/) | Cross-layer dependency correlation and safe refactoring planner for applications. | Python |
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
+| [diagit](https://github.com/semcod/diagit) · [www](https://semcod.github.io/diagit/) | Git fleet diagnostics and AQL-governed control plans with CQRS, event sourcing, protobuf, and URI processes. | Python |
 | [docval](https://github.com/semcod/docval) · [www](https://semcod.github.io/docval/) | Validate and refactor Markdown documentation against source code using heuristics + LLM | Python |
 | [domd](https://github.com/semcod/domd) · [www](https://semcod.github.io/domd/) | ✓ DoMD - Do Markdown Docs - automatically detect, run and show working commands in DONE.md and errors in TODO.md markdown files | Python |
 | [estimation](https://github.com/semcod/estimation) · [www](https://semcod.github.io/estimation/) | Historical CPU, memory, I/O, energy and duration estimates for ticket-bound URI processes | Python |
@@ -90,12 +91,12 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [regres](https://github.com/semcod/regres) · [www](https://semcod.github.io/regres/) | Regression/import diagnostics helpers with TOON reports | Python |
 | [reko](https://github.com/semcod/reko) · [www](https://semcod.github.io/reko/) | Refaktoryzacja hardkodowanych wartości, struktur i kodu w projektach Python | HTML |
 | [repatch](https://github.com/semcod/repatch) · [www](https://semcod.github.io/repatch/) | Scope-based HTML/CSS/DOM patch utilities and LLM patch helpers | Python |
+| [search](https://github.com/semcod/search) · [www](https://semcod.github.io/search/) | Local evidence-backed project search with SQLite FTS5, DSL and Polish/English NL | Python |
 | [semcod](https://github.com/semcod/semcod) · [www](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
 | [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | HTML |
 | [taskand](https://github.com/semcod/taskand) · [www](https://semcod.github.io/taskand/) | Taskand | — |
-| [taskand-glm53](https://github.com/semcod/taskand-glm53) · [www](https://semcod.github.io/taskand-glm53/) | Taskand Glm53 | Python |
 | [taskand-gpt6](https://github.com/semcod/taskand-gpt6) · [www](https://semcod.github.io/taskand-gpt6/) | Taskand Gpt6 | Dockerfile |
 | [taskill](https://github.com/semcod/taskill) · [www](https://semcod.github.io/taskill/) | Daily project hygiene: keep README / CHANGELOG / TODO in sync with reality. LLM-first, algorithmic fallback. | Python |
 | [taskinity](https://github.com/semcod/taskinity) · [www](https://semcod.github.io/taskinity/) | Taskinity | HTML |
@@ -117,7 +118,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 68
+- **Łącznie projektów**: 69
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-09-21_

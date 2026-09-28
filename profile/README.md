@@ -61,7 +61,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [fixell](https://github.com/semcod/fixell) · [www](https://semcod.github.io/fixell/) | Fixell - Zdalna naprawa systemu Linux z AI (Ollama) w trybie awaryjnym, wspierająca Fedorę, Ubuntu i Debiana poprzez interaktywną… | Python |
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
-| [fixos-native](https://github.com/semcod/fixos-native) · [www](https://semcod.github.io/fixos-native/) | Rust filesystem scanner and CLI packages for FixOS | Python |
+| [fixos-native](https://github.com/semcod/fixos-native) · [www](https://semcod.github.io/fixos-native/) | Fixos Native | Python |
 | [fixplesk](https://github.com/semcod/fixplesk) · [www](https://semcod.github.io/fixplesk/) | Tenant-scoped Plesk and WordPress diagnostics, declarative playbooks, and guarded remediation | Python |
 | [gitive](https://github.com/semcod/gitive) · [www](https://semcod.github.io/gitive/) | Gitive CLI, benchmark controller and private workspace tools | Python |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |

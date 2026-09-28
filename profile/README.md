@@ -96,7 +96,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [semcod](https://github.com/semcod/semcod) · [www](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
-| [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | HTML |
+| [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
 | [taskand](https://github.com/semcod/taskand) · [www](https://semcod.github.io/taskand/) | Taskand | — |
 | [taskand-gpt6](https://github.com/semcod/taskand-gpt6) · [www](https://semcod.github.io/taskand-gpt6/) | Taskand Gpt6 | Dockerfile |
 | [taskill](https://github.com/semcod/taskill) · [www](https://semcod.github.io/taskill/) | Daily project hygiene: keep README / CHANGELOG / TODO in sync with reality. LLM-first, algorithmic fallback. | Python |

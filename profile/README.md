@@ -51,7 +51,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [ats-benchmark](https://github.com/semcod/ats-benchmark) · [www](https://semcod.github.io/ats-benchmark/) | Ats Benchmark | Python |
 | [clickmd](https://github.com/semcod/clickmd) · [www](https://semcod.github.io/clickmd/) | Markdown rendering for CLI applications with syntax highlighting | HTML |
 | [code2docs](https://github.com/semcod/code2docs) · [www](https://semcod.github.io/code2docs/) | Auto-generate and sync project documentation from source code analysis | Python |
-| [code2llm-rust](https://github.com/semcod/code2llm-rust) · [www](https://semcod.github.io/code2llm-rust/) | High-performance native Rust acceleration engine for code2llm (PyO3 + Rayon) | Rust |
+| [code2llm-rust](https://github.com/semcod/code2llm-rust) · [www](https://semcod.github.io/code2llm-rust/) | High-performance native Rust acceleration extension for code2llm | Rust |
 | [costs](https://github.com/semcod/costs) · [www](https://semcod.github.io/costs/) | Zero-config AI cost calculator per commit/model with liteLLM | Python |
 | [deconnnected](https://github.com/semcod/deconnnected) · [www](https://semcod.github.io/deconnnected/) | Cross-layer dependency correlation and safe refactoring planner for applications. | Python |
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |

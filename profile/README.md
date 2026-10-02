@@ -51,7 +51,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [ats-benchmark](https://github.com/semcod/ats-benchmark) · [www](https://semcod.github.io/ats-benchmark/) | Ats Benchmark | Python |
 | [clickmd](https://github.com/semcod/clickmd) · [www](https://semcod.github.io/clickmd/) | Markdown rendering for CLI applications with syntax highlighting | HTML |
 | [code2docs](https://github.com/semcod/code2docs) · [www](https://semcod.github.io/code2docs/) | Auto-generate and sync project documentation from source code analysis | Python |
-| [code2flow](https://github.com/semcod/code2flow) · [www](https://semcod.github.io/code2flow/) | Mermaid flow diagrams, call graph visualizations, and architectural diagrams for static code analysis | — |
+| [code2flow](https://github.com/semcod/code2flow) · [www](https://semcod.github.io/code2flow/) | Mermaid flow diagrams, call graph visualizations, and architectural diagrams for static code analysis | Python |
 | [code2graph](https://github.com/semcod/code2graph) · [www](https://semcod.github.io/code2graph/) | Semantic code graph and topology models for static analysis | Python |
 | [code2llm-rust](https://github.com/semcod/code2llm-rust) · [www](https://semcod.github.io/code2llm-rust/) | High-performance native Rust acceleration extension for code2llm | Rust |
 | [code2toon](https://github.com/semcod/code2toon) · [www](https://semcod.github.io/code2toon/) | TOON (Topology Oriented Object Notation) specification, parser, validator, and diff engine | Python |

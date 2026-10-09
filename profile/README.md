@@ -108,7 +108,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [testless](https://github.com/semcod/testless) · [www](https://semcod.github.io/testless/) | Analyze test value, coverage, duplication, and generate LLM planfiles | Python |
 | [testwins](https://github.com/semcod/testwins) · [www](https://semcod.github.io/testwins/) | Evidence-first testing for web, shell and desktop with TestQL, CDP, LiteLLM and computer vision | Python |
 | [todocs](https://github.com/semcod/todocs) · [www](https://semcod.github.io/todocs/) | Static-analysis documentation generator for project portfolios — WordPress-ready markdown articles without LLM | Python |
-| [uncrash](https://github.com/semcod/uncrash) · [www](https://semcod.github.io/uncrash/) | Uncrash | — |
+| [uncrash](https://github.com/semcod/uncrash) · [www](https://semcod.github.io/uncrash/) | Fast local recovery snapshots with optional encryption | Python |
 | [vallm](https://github.com/semcod/vallm) · [www](https://semcod.github.io/vallm/) | A complete toolkit for validating LLM-generated code | HTML |
 | [weekly](https://github.com/semcod/weekly) · [www](https://semcod.github.io/weekly/) | Weekly | Python |
 | [wup](https://github.com/semcod/wup) · [www](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |

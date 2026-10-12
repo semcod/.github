@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-77-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-78-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -56,6 +56,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [code2llm-rust](https://github.com/semcod/code2llm-rust) · [www](https://semcod.github.io/code2llm-rust/) | High-performance native Rust acceleration extension for code2llm | Rust |
 | [code2toon](https://github.com/semcod/code2toon) · [www](https://semcod.github.io/code2toon/) | TOON (Topology Oriented Object Notation) parser, validator, and schema engine | Python |
 | [costs](https://github.com/semcod/costs) · [www](https://semcod.github.io/costs/) | Zero-config AI cost calculator per commit/model with liteLLM | Python |
+| [coterminal](https://github.com/semcod/coterminal) · [www](https://semcod.github.io/coterminal/) | Event-sourced terminal agent watcher and auto-responder (CQRS + ES) | Python |
 | [deconnnected](https://github.com/semcod/deconnnected) · [www](https://semcod.github.io/deconnnected/) | Cross-layer dependency correlation and safe refactoring planner for applications. | Python |
 | [deta](https://github.com/semcod/deta) · [www](https://semcod.github.io/deta/) | Infrastructure anomaly detection and monitoring tool | Python |
 | [diagit](https://github.com/semcod/diagit) · [www](https://semcod.github.io/diagit/) | Git fleet diagnostics and AQL-governed control plans with CQRS, event sourcing, protobuf, and URI processes. | Python |
@@ -125,7 +126,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 76
+- **Łącznie projektów**: 77
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-10-12_

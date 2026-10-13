@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-78-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-80-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -72,6 +72,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
 | [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | Python |
 | [godot](https://github.com/semcod/godot) · [www](https://semcod.github.io/godot/) | Godot | HTML |
+| [grapholog](https://github.com/semcod/grapholog) · [www](https://semcod.github.io/grapholog/) | One-shot terminal project graphs, syntax fingerprints and project comparison | HTML |
 | [heal](https://github.com/semcod/heal) · [www](https://semcod.github.io/heal/) | A Python package for healing and wellness | Python |
 | [intent](https://github.com/semcod/intent) · [www](https://semcod.github.io/intent/) | IntentForge - Intent-Driven Development Framework that turns natural language into executable code, featuring secure sandboxed… | Python |
 | [korullm](https://github.com/semcod/korullm) · [www](https://semcod.github.io/korullm/) | Policy-aware LLM routing, transports and drive strategies extracted from Koru. | Python |
@@ -112,6 +113,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [uncrash](https://github.com/semcod/uncrash) · [www](https://semcod.github.io/uncrash/) | Fast local recovery snapshots with optional encryption | Python |
 | [vallm](https://github.com/semcod/vallm) · [www](https://semcod.github.io/vallm/) | A complete toolkit for validating LLM-generated code | HTML |
 | [weekly](https://github.com/semcod/weekly) · [www](https://semcod.github.io/weekly/) | Weekly | Python |
+| [willset](https://github.com/semcod/willset) · [www](https://semcod.github.io/willset/) | Project in the organization ecosystem. | Python |
 | [wup](https://github.com/semcod/wup) · [www](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |
 | [wupbro](https://github.com/semcod/wupbro) · [www](https://semcod.github.io/wupbro/) | WUP Browser Dashboard — FastAPI backend for WUP regression watcher | HTML |
 | [www](https://github.com/semcod/www) · [www](https://semcod.github.io/www/) | Www | PHP |
@@ -126,7 +128,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 77
+- **Łącznie projektów**: 79
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-10-13_

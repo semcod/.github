@@ -113,7 +113,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [uncrash](https://github.com/semcod/uncrash) · [www](https://semcod.github.io/uncrash/) | Fast local recovery snapshots with optional encryption | Python |
 | [vallm](https://github.com/semcod/vallm) · [www](https://semcod.github.io/vallm/) | A complete toolkit for validating LLM-generated code | HTML |
 | [weekly](https://github.com/semcod/weekly) · [www](https://semcod.github.io/weekly/) | Weekly | Python |
-| [willset](https://github.com/semcod/willset) · [www](https://semcod.github.io/willset/) | Project in the organization ecosystem. | Python |
+| [willset](https://github.com/semcod/willset) · [www](https://semcod.github.io/willset/) | Typed SQLite settings with authenticated CLI, SQL and URI transports | Python |
 | [wup](https://github.com/semcod/wup) · [www](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |
 | [wupbro](https://github.com/semcod/wupbro) · [www](https://semcod.github.io/wupbro/) | WUP Browser Dashboard — FastAPI backend for WUP regression watcher | HTML |
 | [www](https://github.com/semcod/www) · [www](https://semcod.github.io/www/) | Www | PHP |

@@ -85,7 +85,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [nxdo](https://github.com/semcod/nxdo) · [www](https://semcod.github.io/nxdo/) | Generate the next 10 project tasks from project state, git history and an LLM prompt. | Python |
 | [pactfix](https://github.com/semcod/pactfix) · [www](https://semcod.github.io/pactfix/) | Real-time Bash script analyzer and auto-fixer with ShellCheck integration. | Python |
 | [pfix](https://github.com/semcod/pfix) · [www](https://semcod.github.io/pfix/) | Self-healing Python — catches runtime errors, fixes code & dependencies via LLM + MCP | Python |
-| [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Prefact | Python |
+| [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
 | [protos](https://github.com/semcod/protos) · [www](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
 | [proxeen](https://github.com/semcod/proxeen) · [www](https://semcod.github.io/proxeen/) | Proxeen — AI Desktop Assistant with real-time screen analysis, voice recognition, and window context awareness. | Python |
 | [proxym](https://github.com/semcod/proxym) · [www](https://semcod.github.io/proxym/) | Intelligent AI proxy with multi-provider routing, semantic caching, and delta context buffers | Python |
@@ -115,7 +115,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [weekly](https://github.com/semcod/weekly) · [www](https://semcod.github.io/weekly/) | Weekly | Python |
 | [willset](https://github.com/semcod/willset) · [www](https://semcod.github.io/willset/) | Typed SQLite settings with authenticated CLI, SQL and URI transports | Python |
 | [wup](https://github.com/semcod/wup) · [www](https://semcod.github.io/wup/) | WUP (What's Up) - Intelligent file watcher for regression testing in large projects | Python |
-| [wupbro](https://github.com/semcod/wupbro) · [www](https://semcod.github.io/wupbro/) | Wupbro | HTML |
+| [wupbro](https://github.com/semcod/wupbro) · [www](https://semcod.github.io/wupbro/) | WUP Browser Dashboard — FastAPI backend for WUP regression watcher | HTML |
 | [www](https://github.com/semcod/www) · [www](https://semcod.github.io/www/) | Www | PHP |
 
 ### Quality

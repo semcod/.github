@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-80-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-82-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -85,6 +85,8 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [nxdo](https://github.com/semcod/nxdo) · [www](https://semcod.github.io/nxdo/) | Generate the next 10 project tasks from project state, git history and an LLM prompt. | Python |
 | [pactfix](https://github.com/semcod/pactfix) · [www](https://semcod.github.io/pactfix/) | Real-time Bash script analyzer and auto-fixer with ShellCheck integration. | Python |
 | [pfix](https://github.com/semcod/pfix) · [www](https://semcod.github.io/pfix/) | Self-healing Python — catches runtime errors, fixes code & dependencies via LLM + MCP | Python |
+| [planfile-io](https://github.com/semcod/planfile-io) · [www](https://semcod.github.io/planfile-io/) | Rust-native hot-path I/O and Wellmanifest data-plane/data-gateway adapters for planfile | Python |
+| [planfile-journal](https://github.com/semcod/planfile-journal) · [www](https://semcod.github.io/planfile-journal/) | Rust-native append-only JSONL journal, mmap highwater scanner, and hash-chain engine for planfile | Rust |
 | [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
 | [protos](https://github.com/semcod/protos) · [www](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
 | [proxeen](https://github.com/semcod/proxeen) · [www](https://semcod.github.io/proxeen/) | Proxeen — AI Desktop Assistant with real-time screen analysis, voice recognition, and window context awareness. | Python |
@@ -128,7 +130,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 79
+- **Łącznie projektów**: 81
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-10-19_

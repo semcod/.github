@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-82-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-89-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -67,6 +67,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [fixop](https://github.com/semcod/fixop) · [www](https://semcod.github.io/fixop/) | Infrastructure fix operations — detect and repair DNS, firewall, containers, TLS, systemd issues | HTML |
 | [fixos](https://github.com/semcod/fixos) · [www](https://semcod.github.io/fixos/) | AI-powered Linux/Windows diagnostics and repair – audio, hardware, system issues | Python |
 | [fixos-native](https://github.com/semcod/fixos-native) · [www](https://semcod.github.io/fixos-native/) | Fixos Native | Python |
+| [fixpi](https://github.com/semcod/fixpi) · [www](https://semcod.github.io/fixpi/) | Project in the organization ecosystem. | Python |
 | [fixplesk](https://github.com/semcod/fixplesk) · [www](https://semcod.github.io/fixplesk/) | Tenant-scoped Plesk and WordPress diagnostics, declarative playbooks, and guarded remediation | Python |
 | [gitive](https://github.com/semcod/gitive) · [www](https://semcod.github.io/gitive/) | Gitive CLI, benchmark controller and private workspace tools | Python |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
@@ -85,8 +86,12 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [nxdo](https://github.com/semcod/nxdo) · [www](https://semcod.github.io/nxdo/) | Generate the next 10 project tasks from project state, git history and an LLM prompt. | Python |
 | [pactfix](https://github.com/semcod/pactfix) · [www](https://semcod.github.io/pactfix/) | Real-time Bash script analyzer and auto-fixer with ShellCheck integration. | Python |
 | [pfix](https://github.com/semcod/pfix) · [www](https://semcod.github.io/pfix/) | Self-healing Python — catches runtime errors, fixes code & dependencies via LLM + MCP | Python |
+| [planfile-analyzer](https://github.com/semcod/planfile-analyzer) · [www](https://semcod.github.io/planfile-analyzer/) | Project in the organization ecosystem. | Rust |
+| [planfile-dsl](https://github.com/semcod/planfile-dsl) · [www](https://semcod.github.io/planfile-dsl/) | Project in the organization ecosystem. | Rust |
+| [planfile-graph](https://github.com/semcod/planfile-graph) · [www](https://semcod.github.io/planfile-graph/) | Project in the organization ecosystem. | Rust |
 | [planfile-io](https://github.com/semcod/planfile-io) · [www](https://semcod.github.io/planfile-io/) | Rust-native hot-path I/O and Wellmanifest data-plane/data-gateway adapters for planfile | Rust |
 | [planfile-journal](https://github.com/semcod/planfile-journal) · [www](https://semcod.github.io/planfile-journal/) | Rust-native append-only JSONL journal, mmap highwater scanner, and hash-chain engine for planfile | Rust |
+| [planfile-semantic](https://github.com/semcod/planfile-semantic) · [www](https://semcod.github.io/planfile-semantic/) | Project in the organization ecosystem. | Python |
 | [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
 | [protos](https://github.com/semcod/protos) · [www](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
 | [proxeen](https://github.com/semcod/proxeen) · [www](https://semcod.github.io/proxeen/) | Proxeen — AI Desktop Assistant with real-time screen analysis, voice recognition, and window context awareness. | Python |
@@ -100,9 +105,11 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [regres](https://github.com/semcod/regres) · [www](https://semcod.github.io/regres/) | Regression/import diagnostics helpers with TOON reports | Python |
 | [reko](https://github.com/semcod/reko) · [www](https://semcod.github.io/reko/) | Refaktoryzacja hardkodowanych wartości, struktur i kodu w projektach Python | HTML |
 | [repatch](https://github.com/semcod/repatch) · [www](https://semcod.github.io/repatch/) | Scope-based HTML/CSS/DOM patch utilities and LLM patch helpers | Python |
+| [repo2brief](https://github.com/semcod/repo2brief) · [www](https://semcod.github.io/repo2brief/) | Project in the organization ecosystem. | Python |
 | [search](https://github.com/semcod/search) · [www](https://semcod.github.io/search/) | Local evidence-backed project search with SQLite FTS5, DSL and Polish/English NL | Python |
 | [semcod](https://github.com/semcod/semcod) · [www](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
+| [streamcanon](https://github.com/semcod/streamcanon) · [www](https://semcod.github.io/streamcanon/) | Project in the organization ecosystem. | Python |
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
 | [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
 | [taskand](https://github.com/semcod/taskand) · [www](https://semcod.github.io/taskand/) | Taskand | — |
@@ -130,7 +137,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 81
+- **Łącznie projektów**: 88
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-10-19_

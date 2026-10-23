@@ -18,6 +18,28 @@ class RoutingTests(unittest.TestCase):
     def test_preserves_foreign_owner_with_same_name(self):
         self.assertEqual(self.select('repository_dispatch', {'action': 'org-repo-changed', 'client_payload': {'repository': 'autogrammar/imgl'}}), (['autogrammar/imgl'], False))
 
+    def test_nlp2cmd_enrollment_preserves_full_identity(self):
+        target = 'autogrammar/nlp2cmd'
+        self.assertIn(target, self.select('schedule', {})[0])
+        self.assertNotIn('semcod/nlp2cmd', self.select('schedule', {})[0])
+        self.assertEqual(self.select('repository_dispatch', {
+            'action': 'org-repo-changed', 'client_payload': {'repository': target}
+        }), ([target], False))
+        for dry_run in (True, False):
+            with self.subTest(dry_run=dry_run):
+                self.assertEqual(self.select('workflow_dispatch', {
+                    'inputs': {'repository': target, 'dry_run': dry_run}
+                }), ([target], dry_run))
+                with patch.object(run_event.subprocess, 'run', return_value=subprocess.CompletedProcess([], 0)) as call:
+                    self.assertEqual(run_event.run_targets([target], dry_run, 'semcod/.github'), 0)
+                self.assertEqual(call.call_count, 1)
+                args = call.call_args.args[0]
+                self.assertEqual(args[args.index('--org') + 1], 'autogrammar')
+                self.assertEqual(args[args.index('--repository') + 1], 'nlp2cmd')
+                self.assertIn('--metadata-only', args)
+                self.assertIn('--skip-profile', args)
+                self.assertEqual('--dry-run' in args, dry_run)
+
     def test_rejects_unmanaged_foreign_repository(self):
         with self.assertRaises(ValueError):
             self.select('repository_dispatch', {'action': 'org-repo-changed', 'client_payload': {'repository': 'other/imgl'}})

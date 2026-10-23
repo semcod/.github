@@ -4,6 +4,7 @@
   "scheduled_repositories": [
     "autogrammar/code2schema",
     "autogrammar/imgl",
+    "autogrammar/nlp2cmd",
     "autogrammar/op3",
     "autogrammar/toonic"
   ]

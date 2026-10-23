@@ -3,14 +3,14 @@
   "schema": "wellmanifest.docs/document/v1",
   "id": "org-metadata-sync",
   "kind": "information",
-  "version": 2,
+  "version": 3,
   "title": "Synchronizacja metadanych przez wspólny koordynator",
   "status": "implemented",
   "owner": "semcod/.github",
   "created": "2026-09-06",
-  "updated": "2026-09-06",
-  "review_after": "2026-09-13",
-  "source_revision": "406fb4b692680b3d69d25ee9570e81869afbd0c5",
+  "updated": "2026-10-23",
+  "review_after": "2026-10-30",
+  "source_revision": "135a1e5faf567678c80d9ad8cfce0dc18646b277",
   "affected_repositories": [
     "semcod/.github"
   ],
@@ -32,7 +32,7 @@ Koordynator rozpoznaje pełną tożsamość repozytorium i synchronizuje wyłąc
 <!-- docs:section scope -->
 ## Zakres
 
-Właścicielem mechanizmu jest semcod/.github. Lista zarządzanych zewnętrznych repozytoriów znajduje się w [org-sync/managed-repositories.json](../../org-sync/managed-repositories.json). Początkowo obejmuje autogrammar/code2schema, autogrammar/imgl, autogrammar/op3 i autogrammar/toonic. Lista jest zamknięta; nie oznacza całej organizacji. Inne instalacje koordynatora zachowują zakres własnej organizacji.
+Właścicielem mechanizmu jest semcod/.github. Lista zarządzanych zewnętrznych repozytoriów znajduje się w [org-sync/managed-repositories.json](../../org-sync/managed-repositories.json). Obejmuje autogrammar/code2schema, autogrammar/imgl, autogrammar/nlp2cmd, autogrammar/op3 i autogrammar/toonic. Lista jest zamknięta; nie oznacza całej organizacji. Inne instalacje koordynatora zachowują zakres własnej organizacji.
 
 <!-- docs:section evidence -->
 ## Dowody
@@ -42,7 +42,7 @@ Wersja źródłowa jest przypięta w metadanych. [Nieudana synchronizacja imgl](
 <!-- docs:section content -->
 ## Działanie i obsługa
 
-Istniejący harmonogram `17 */6 * * *` wykonuje synchronizację Semcod oraz czterech jawnie zarządzanych projektów Autogrammar. Ich opisy i tematy aktualizuje tryb `--metadata-only --skip-profile`; adresy WWW, GitHub Pages i profil organizacji pozostają poza tym trybem. Dla Semcod zachowano dotychczasową synchronizację wraz z profilem i kontrolą widoczności repozytorium przed konfiguracją Pages.
+Istniejący harmonogram `17 */6 * * *` wykonuje synchronizację Semcod oraz pięciu jawnie zarządzanych projektów Autogrammar. Ich opisy i tematy aktualizuje tryb `--metadata-only --skip-profile`; adresy WWW, GitHub Pages i profil organizacji pozostają poza tym trybem. Dla Semcod zachowano dotychczasową synchronizację wraz z profilem i kontrolą widoczności repozytorium przed konfiguracją Pages.
 
 Repozytoria zarządzane centralnie nie potrzebują lokalnego triggera ani ORG_SYNC_PAT. Sekret istniejącego koordynatora musi mieć rzeczywiste uprawnienia do modyfikacji wskazanych celów. Nie kopiujemy osobistego tokena operatora do repozytoriów członkowskich.
 
@@ -73,3 +73,8 @@ Format dokumentu przyjęto z wellmanifest/docs 0.1.1. Sam ten dokument nie dekla
 ## Utrzymanie
 
 Dodanie projektu wymaga jawnej pozycji w katalogu, konfiguracji organizacji, testu zakresu oraz udanego podglądu, wykonania i odczytu wartości. Przy zmianie zachowania zwiększ wersję tego dokumentu. Rollback: cofnij zmianę koordynatora i przywróć poprzedni trigger dopiero po przygotowaniu jego uwierzytelniania i poprawnego odbiorcy.
+
+### Historia wersji
+
+- Wersja 2 (2026-09-06): cztery cele Autogrammar; dowody wykonania dla imgl pozostają powyżej.
+- Wersja 3 (2026-10-23): dodano autogrammar/nlp2cmd i test pełnej tożsamości oraz ograniczeń wykonania. [Zgłoszenie #5](https://github.com/semcod/.github/issues/5) śledzi wdrożenie. Weryfikacja zapisu dla nlp2cmd jest osobnym krokiem po scaleniu; wcześniejszy sukces imgl nie jest dowodem uprawnień dla nowego celu.

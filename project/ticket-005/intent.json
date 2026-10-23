@@ -1,0 +1,22 @@
+{
+  "ticket": "ticket-005",
+  "summary": "Enroll autogrammar/nlp2cmd in central metadata synchronization",
+  "allowedPaths": [
+    "org-sync/managed-repositories.json",
+    "org-sync/tests/test_routing.py",
+    "docs/information/org-metadata-sync.md",
+    "project/ticket-005/**"
+  ],
+  "forbiddenPaths": [
+    ".github/workflows/**",
+    ".env",
+    "org-sync/config/**"
+  ],
+  "authorization": "SESSION_EXECUTION_AUTHORIZATION",
+  "issue": "https://github.com/semcod/.github/issues/5",
+  "status": "IN_PROGRESS",
+  "phase": "PUBLICATION",
+  "maxActiveMinutes": 120,
+  "acceptedBaseSha": "135a1e5faf567678c80d9ad8cfce0dc18646b277",
+  "outcome": "Publish enrollment through independent Validator; verify target-only dry-run, apply and metadata readback before consumer trigger retirement."
+}

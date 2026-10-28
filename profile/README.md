@@ -69,7 +69,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [fixos-native](https://github.com/semcod/fixos-native) · [www](https://semcod.github.io/fixos-native/) | Fixos Native | Python |
 | [fixpi](https://github.com/semcod/fixpi) · [www](https://semcod.github.io/fixpi/) | Local Raspberry Pi network recovery powered by fixos | Python |
 | [fixplesk](https://github.com/semcod/fixplesk) · [www](https://semcod.github.io/fixplesk/) | Tenant-scoped Plesk and WordPress diagnostics, declarative playbooks, and guarded remediation | Python |
-| [flowguard](https://github.com/semcod/flowguard) · [www](https://semcod.github.io/flowguard/) | Bounded concurrent DAG scheduler: run ready tasks as fast as resource, quota and host-pressure limits allow | Python |
+| [flowguard](https://github.com/semcod/flowguard) · [www](https://semcod.github.io/flowguard/) | Autonomous bounded concurrent dispatch and flow governor for Heyasa | Python |
 | [gitive](https://github.com/semcod/gitive) · [www](https://semcod.github.io/gitive/) | Gitive CLI, benchmark controller and private workspace tools | Python |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
 | [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | Python |

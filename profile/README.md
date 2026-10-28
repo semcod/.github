@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-89-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-90-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -69,6 +69,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [fixos-native](https://github.com/semcod/fixos-native) · [www](https://semcod.github.io/fixos-native/) | Fixos Native | Python |
 | [fixpi](https://github.com/semcod/fixpi) · [www](https://semcod.github.io/fixpi/) | Local Raspberry Pi network recovery powered by fixos | Python |
 | [fixplesk](https://github.com/semcod/fixplesk) · [www](https://semcod.github.io/fixplesk/) | Tenant-scoped Plesk and WordPress diagnostics, declarative playbooks, and guarded remediation | Python |
+| [flowguard](https://github.com/semcod/flowguard) · [www](https://semcod.github.io/flowguard/) | Bounded concurrent DAG scheduler: run ready tasks as fast as resource, quota and host-pressure limits allow | Python |
 | [gitive](https://github.com/semcod/gitive) · [www](https://semcod.github.io/gitive/) | Gitive CLI, benchmark controller and private workspace tools | Python |
 | [giton](https://github.com/semcod/giton) · [www](https://semcod.github.io/giton/) | Local AI layer for git: orchestrates policies & plugins between commit and push. | HTML |
 | [glon](https://github.com/semcod/glon) · [www](https://semcod.github.io/glon/) | Python package for garbage collection utilities and memory management | Python |
@@ -137,7 +138,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 88
+- **Łącznie projektów**: 89
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-10-28_

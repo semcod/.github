@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-90-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-91-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -78,6 +78,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [heal](https://github.com/semcod/heal) · [www](https://semcod.github.io/heal/) | A Python package for healing and wellness | Python |
 | [intent](https://github.com/semcod/intent) · [www](https://semcod.github.io/intent/) | IntentForge - Intent-Driven Development Framework that turns natural language into executable code, featuring secure sandboxed… | Python |
 | [korullm](https://github.com/semcod/korullm) · [www](https://semcod.github.io/korullm/) | Policy-aware LLM routing, transports and drive strategies extracted from Koru. | Python |
+| [lipay](https://github.com/semcod/lipay) · [www](https://semcod.github.io/lipay/) | Licence-only Python CLI and shared SQLite licence-price catalogue for pay.prototypowanie.pl. | — |
 | [llx](https://github.com/semcod/llx) · [www](https://semcod.github.io/llx/) | Intelligent LLM model router driven by real code metrics — successor to preLLM | Python |
 | [mcp-manager](https://github.com/semcod/mcp-manager) · [www](https://semcod.github.io/mcp-manager/) | MCP Manager - Centrum zarządzania serwerami i klientami Model Context Protocol | HTML |
 | [mdflow](https://github.com/semcod/mdflow) · [www](https://semcod.github.io/mdflow/) | Markdown dependency analyzer — extract all dependencies, generate diagrams and charts | HTML |
@@ -138,7 +139,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 89
+- **Łącznie projektów**: 90
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-11-06_

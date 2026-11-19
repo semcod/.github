@@ -95,7 +95,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [planfile-journal](https://github.com/semcod/planfile-journal) · [www](https://semcod.github.io/planfile-journal/) | Ultra-fast reverse-seek JSONL tail, cryptographic hash chain, and PLOG/1 projection for planfile | Rust |
 | [planfile-semantic](https://github.com/semcod/planfile-semantic) · [www](https://semcod.github.io/planfile-semantic/) | Ultra-fast text similarity and duplicate detection for planfile | Python |
 | [prefact](https://github.com/semcod/prefact) · [www](https://semcod.github.io/prefact/) | Python code quality tool with LLM-aware rules, plugin system, and enterprise features | Python |
-| [projan](https://github.com/semcod/projan) · [www](https://semcod.github.io/projan/) | Reusable project analysis pipeline and project CLI | — |
+| [projan](https://github.com/semcod/projan) · [www](https://semcod.github.io/projan/) | Projan | — |
 | [protos](https://github.com/semcod/protos) · [www](https://semcod.github.io/protos/) | Migration tool and delegation platform for extracting bounded slices from legacy systems | Python |
 | [proxeen](https://github.com/semcod/proxeen) · [www](https://semcod.github.io/proxeen/) | Proxeen — AI Desktop Assistant with real-time screen analysis, voice recognition, and window context awareness. | Python |
 | [proxym](https://github.com/semcod/proxym) · [www](https://semcod.github.io/proxym/) | Intelligent AI proxy with multi-provider routing, semantic caching, and delta context buffers | Python |

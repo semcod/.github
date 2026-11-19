@@ -112,7 +112,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [search](https://github.com/semcod/search) · [www](https://semcod.github.io/search/) | Local evidence-backed project search with SQLite FTS5, DSL and Polish/English NL | Python |
 | [semcod](https://github.com/semcod/semcod) · [www](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
-| [slotkit](https://github.com/semcod/slotkit) · [www](https://semcod.github.io/slotkit/) | Zero-dependency crash-safe release slots, attempt journals, Ed25519/DSSE bundle verification and process-attested self-update primitives | — |
+| [slotkit](https://github.com/semcod/slotkit) · [www](https://semcod.github.io/slotkit/) | Slotkit | — |
 | [streamcanon](https://github.com/semcod/streamcanon) · [www](https://semcod.github.io/streamcanon/) | Rust canonical JSON process with exact Python evidence encoding | Python |
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
 | [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |

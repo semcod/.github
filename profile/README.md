@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-92-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-93-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -112,6 +112,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [search](https://github.com/semcod/search) · [www](https://semcod.github.io/search/) | Local evidence-backed project search with SQLite FTS5, DSL and Polish/English NL | Python |
 | [semcod](https://github.com/semcod/semcod) · [www](https://semcod.github.io/semcod/) | A Python package for musical string manipulation and analysis | Python |
 | [skillm](https://github.com/semcod/skillm) · [www](https://semcod.github.io/skillm/) | Skillm | Python |
+| [slotkit](https://github.com/semcod/slotkit) · [www](https://semcod.github.io/slotkit/) | Zero-dependency crash-safe release slots, attempt journals, Ed25519/DSSE bundle verification and process-attested self-update primitives | — |
 | [streamcanon](https://github.com/semcod/streamcanon) · [www](https://semcod.github.io/streamcanon/) | Rust canonical JSON process with exact Python evidence encoding | Python |
 | [swop](https://github.com/semcod/swop) · [www](https://semcod.github.io/swop/) | Bi-directional runtime reconciler and drift-aware state graph for full-stack systems | Python |
 | [tagi](https://github.com/semcod/tagi) · [www](https://semcod.github.io/tagi/) | Orchestrator for Git change shipments | Python |
@@ -140,7 +141,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 91
+- **Łącznie projektów**: 92
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-11-19_

@@ -1,7 +1,7 @@
 # Semcod
 
 [![Organization](https://img.shields.io/badge/GitHub-semcod-black.svg)](https://github.com/semcod)
-[![Projects](https://img.shields.io/badge/projects-93-blue.svg)](https://github.com/semcod?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-94-blue.svg)](https://github.com/semcod?tab=repositories)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, automatyzacja LLM, orchestracja i delivery.
@@ -49,6 +49,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 | [algitex](https://github.com/semcod/algitex) · [www](https://semcod.github.io/algitex/) | Progressive algorithmization toolchain — from LLM to deterministic code, from proxy to tickets | Python |
 | [algocode](https://github.com/semcod/algocode) · [www](https://semcod.github.io/algocode/) | Algorithmic Code & Backlog Analysis Engine with NL-DSL-LLM Architecture and MCP Server | Python |
 | [ats-benchmark](https://github.com/semcod/ats-benchmark) · [www](https://semcod.github.io/ats-benchmark/) | Ats Benchmark | Python |
+| [bottlenecks](https://github.com/semcod/bottlenecks) · [www](https://pypi.org/project/bottlenecks/) | Find bottlenecks in Python code, runtime (cProfile), pipelines/DAGs and host systems | Python |
 | [clickmd](https://github.com/semcod/clickmd) · [www](https://semcod.github.io/clickmd/) | Markdown rendering for CLI applications with syntax highlighting | HTML |
 | [code2docs](https://github.com/semcod/code2docs) · [www](https://semcod.github.io/code2docs/) | Auto-generate and sync project documentation from source code analysis | Python |
 | [code2flow](https://github.com/semcod/code2flow) · [www](https://semcod.github.io/code2flow/) | Mermaid flow diagrams, call graph visualization, and architecture diagrams for code analysis | Python |
@@ -141,7 +142,7 @@ Ekosystem open-source do semantycznej optymalizacji kodu — analiza, jakość, 
 
 ## Statystyki
 
-- **Łącznie projektów**: 92
+- **Łącznie projektów**: 93
 - **Strony projektów**: `https://semcod.github.io/<repo>/`
 
 _Ostatnia aktualizacja: 2026-11-21_
